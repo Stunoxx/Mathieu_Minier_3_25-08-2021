@@ -1,9 +1,95 @@
 html, body {
   margin: 0;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 html div, body div {
   font-size: 2rem;
   padding: 1rem;
+}
+html .logo, body .logo {
+  width: 100%;
+  border-bottom: grey 2px solid;
+}
+html p, body p {
+  text-align: center;
+}
+html .header-subtitle, body .header-subtitle {
+  font-size: 15px;
+}
+html .header-localisation, body .header-localisation {
+  font-size: 22px;
+}
+html .contenu-header i, body .contenu-header i {
+  position: absolute;
+  padding-left: 3rem;
+  padding-top: 1.4rem;
+}
+html h3, body h3 {
+  text-align: center;
+}
+html .button-explorer, body .button-explorer {
+  border: 0;
+  color: white;
+  border-radius: 4rem;
+  cursor: pointer;
+  height: 3.5rem;
+  transition: all 0.2s;
+  background-color: #FF79DA;
+  width: 100%;
+}
+html .button-explorer::after, body .button-explorer::after {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  background: linear-gradient(225deg, #FF79DA 50%, #9356DC 100%);
+  transition: all 0.2s;
+}
+html .button-explorer:hover, body .button-explorer:hover {
+  transform: translate(0, -6px);
+}
+html .titre-fonctionnement, body .titre-fonctionnement {
+  text-align: left;
+}
+html .btn-fonctionnement, body .btn-fonctionnement {
+  border: 0;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #9356DC;
+  width: 20px;
+}
+html .ctn-fonctionnement, body .ctn-fonctionnement {
+  padding-top: 2rem;
+  font-size: 20px;
+  padding-left: 3rem;
+}
+html i, body i {
+  position: absolute;
+  padding-top: 0.7rem;
+  padding-left: 0.8rem;
+  font-size: 25px;
+}
+html .icon-button, body .icon-button {
+  position: absolute;
+}
+html .icon-button-color, body .icon-button-color {
+  position: absolute;
+  color: #9356DC;
+}
+html .img-restaurants, body .img-restaurants {
+  width: 100%;
+}
+html .restau, body .restau {
+  text-align: left;
+}
+html h2, body h2 {
+  font-size: 25px;
+}
+html .subtitle-menus, body .subtitle-menus {
+  font-size: 20px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=index.css.map */
