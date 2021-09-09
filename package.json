@@ -1,0 +1,20 @@
+{
+  "name": "projet3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass:./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stunoxx/Mathieu_Minier_3_25-08-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stunoxx/Mathieu_Minier_3_25-08-2021/issues"
+  },
+  "homepage": "https://github.com/Stunoxx/Mathieu_Minier_3_25-08-2021#readme"
+}
