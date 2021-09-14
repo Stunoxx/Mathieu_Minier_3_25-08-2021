@@ -40,19 +40,11 @@ h3 {
     cursor: pointer;
     height: 3.5rem;
     transition: all 0.2s;
-    background-color: #FF79DA ;
+    background: linear-gradient(#FF79DA  , #9356DC );
     width: 100%;
-    
 
 }
-.button-explorer::after {
-    content: "";
-    width: 2rem;
-    height: 2rem;
-    background: linear-gradient(225deg,#FF79DA 50% , #9356DC 100%);
-    transition: all 0.2s;
 
-}
 .button-explorer:hover {
     transform: translate(0, -6px);
 }
