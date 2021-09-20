@@ -11,20 +11,28 @@ html,body {
     
 
 .logo {
-    width: 100%;
-    border-bottom: grey 2px solid;
-    
+    width: 50%;
+    margin-top: 1rem;
+    padding-left: 5.5rem;
 }
 p {
     text-align: center;
 }
+
+.header-localisation {
+    font-size: 22px;
+    
+    
+    
+}
+
 .header-subtitle {
     font-size: 15px;
 }
-.header-localisation {
-    font-size: 22px;
-}
+
 .contenu-header i  {
+    border-top: grey 2px solid;
+    width: 80%;
     position: absolute;
     padding-left: 3rem;
     padding-top: 1.4rem;
@@ -41,8 +49,8 @@ h3 {
     height: 3.5rem;
     transition: all 0.2s;
     background: linear-gradient(#FF79DA  , #9356DC );
-    width: 100%;
-
+    width: 70%;
+    margin-left: 3rem;
 }
 
 .button-explorer:hover {
@@ -52,6 +60,21 @@ h3 {
 .titre-fonctionnement {
     text-align: left ;
 }
+
+.fonctionnement-items {
+    position: relative;
+    background-color: #FFFFFF;
+    
+}
+.item-number {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+
+}
+
 .btn-fonctionnement {
     border: 0;
     color: white;
@@ -67,6 +90,8 @@ h3 {
     padding-top: 2rem;
     font-size: 20px;
     padding-left: 3rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 2px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 3rem;
 }
 i {
     position: absolute;

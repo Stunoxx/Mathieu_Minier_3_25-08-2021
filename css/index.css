@@ -9,19 +9,22 @@ html div, body div {
   padding: 1rem;
 }
 html .logo, body .logo {
-  width: 100%;
-  border-bottom: grey 2px solid;
+  width: 50%;
+  margin-top: 1rem;
+  padding-left: 5.5rem;
 }
 html p, body p {
   text-align: center;
 }
-html .header-subtitle, body .header-subtitle {
-  font-size: 15px;
-}
 html .header-localisation, body .header-localisation {
   font-size: 22px;
 }
+html .header-subtitle, body .header-subtitle {
+  font-size: 15px;
+}
 html .contenu-header i, body .contenu-header i {
+  border-top: grey 2px solid;
+  width: 80%;
   position: absolute;
   padding-left: 3rem;
   padding-top: 1.4rem;
@@ -37,13 +40,25 @@ html .button-explorer, body .button-explorer {
   height: 3.5rem;
   transition: all 0.2s;
   background: linear-gradient(#FF79DA, #9356DC);
-  width: 100%;
+  width: 70%;
+  margin-left: 3rem;
 }
 html .button-explorer:hover, body .button-explorer:hover {
   transform: translate(0, -6px);
 }
 html .titre-fonctionnement, body .titre-fonctionnement {
   text-align: left;
+}
+html .fonctionnement-items, body .fonctionnement-items {
+  position: relative;
+  background-color: #FFFFFF;
+}
+html .item-number, body .item-number {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding-top: 0.7rem;
+  padding-left: 1rem;
 }
 html .btn-fonctionnement, body .btn-fonctionnement {
   border: 0;
@@ -57,6 +72,8 @@ html .ctn-fonctionnement, body .ctn-fonctionnement {
   padding-top: 2rem;
   font-size: 20px;
   padding-left: 3rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 2px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 3rem;
 }
 html i, body i {
   position: absolute;
