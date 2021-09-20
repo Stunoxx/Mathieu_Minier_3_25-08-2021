@@ -43,9 +43,6 @@ html .button-explorer, body .button-explorer {
   width: 70%;
   margin-left: 3rem;
 }
-html .button-explorer:hover, body .button-explorer:hover {
-  transform: translate(0, -6px);
-}
 html .titre-fonctionnement, body .titre-fonctionnement {
   text-align: left;
 }
