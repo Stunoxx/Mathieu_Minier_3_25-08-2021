@@ -6,7 +6,7 @@ html,body {
     
     div {
         font-size: 2rem;
-        padding: 1rem;
+        
     }
     
 
@@ -21,6 +21,7 @@ p {
 
 .header-localisation {
     font-size: 22px;
+    padding-top: 1.5rem;
     
     
     
@@ -32,7 +33,7 @@ p {
 
 .contenu-header i  {
     border-top: grey 2px solid;
-    width: 80%;
+    width: 100%;
     position: absolute;
     padding-left: 3rem;
     padding-top: 1.4rem;
@@ -82,14 +83,38 @@ h3 {
     width: 20px;
     
     
+    
 }
-
+.first-button {
+    display: flex;
+    align-items: center
+    
+    
+}
+.first-button i {
+    margin-left: 1.2rem;
+    color: grey;
+}
+.third-button {
+    display: flex;
+    align-items: center;
+}
+.third-button i {
+    color: #9356DC;
+    margin-left: 1rem;
+}
 .ctn-fonctionnement {
-    padding-top: 2rem;
-    font-size: 20px;
-    padding-left: 3rem;
+    font-size: 29px;
+    background-color: #f6f6f6;
+    position: relative;
     box-shadow: rgba(17, 17, 26, 0.1) 2px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-    border-radius: 3rem;
+    margin: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 3rem;
 }
 i {
     position: absolute;

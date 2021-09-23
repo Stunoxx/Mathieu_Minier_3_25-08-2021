@@ -6,7 +6,6 @@ html, body {
 }
 html div, body div {
   font-size: 2rem;
-  padding: 1rem;
 }
 html .logo, body .logo {
   width: 50%;
@@ -18,13 +17,14 @@ html p, body p {
 }
 html .header-localisation, body .header-localisation {
   font-size: 22px;
+  padding-top: 1.5rem;
 }
 html .header-subtitle, body .header-subtitle {
   font-size: 15px;
 }
 html .contenu-header i, body .contenu-header i {
   border-top: grey 2px solid;
-  width: 80%;
+  width: 100%;
   position: absolute;
   padding-left: 3rem;
   padding-top: 1.4rem;
@@ -65,12 +65,34 @@ html .btn-fonctionnement, body .btn-fonctionnement {
   background-color: #9356DC;
   width: 20px;
 }
+html .first-button, body .first-button {
+  display: flex;
+  align-items: center;
+}
+html .first-button i, body .first-button i {
+  margin-left: 1.2rem;
+  color: grey;
+}
+html .third-button, body .third-button {
+  display: flex;
+  align-items: center;
+}
+html .third-button i, body .third-button i {
+  color: #9356DC;
+  margin-left: 1rem;
+}
 html .ctn-fonctionnement, body .ctn-fonctionnement {
-  padding-top: 2rem;
-  font-size: 20px;
-  padding-left: 3rem;
+  font-size: 29px;
+  background-color: #f6f6f6;
+  position: relative;
   box-shadow: rgba(17, 17, 26, 0.1) 2px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-  border-radius: 3rem;
+  margin: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 3rem;
 }
 html i, body i {
   position: absolute;
