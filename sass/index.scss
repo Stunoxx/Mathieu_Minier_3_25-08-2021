@@ -91,6 +91,8 @@ h3 {
 .first-button i {
     margin-left: 1.2rem;
     color: grey;
+    padding-top: 0rem;
+    padding-left: 0.8rem;
 }
 .third-button {
     display: flex;
@@ -101,23 +103,37 @@ h3 {
     margin-left: 1rem;
 }
 .ctn-fonctionnement {
-    font-size: 29px;
+    font-size: 20px;
     background-color: #f6f6f6;
     position: relative;
-    box-shadow: rgba(17, 17, 26, 0.1) 2px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    
     margin: 10px 20px;
     border-radius: 20px;
     border: none;
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin-left: 3rem;
+    margin-left: 4rem;
+    padding: 1rem;
 }
 i {
     position: absolute;
-   padding-top: 0.7rem;
-    padding-left: 0.8rem;
+   
     font-size: 25px;
+}
+.second-button {
+    display: flex;
+    align-items: center 
+    
+}
+.second-button i {
+    padding-top: 0rem;
+    padding-left: 1.8rem;
+    color: grey;
+}
+.third-button i {
+    padding-top: 0rem;
+    padding-left: 0.7rem;
 }
 .icon-button {
     position: absolute;
