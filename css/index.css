@@ -48,6 +48,10 @@ h3 {
   margin-left: 3rem;
 }
 
+.main {
+  padding-left: 1rem;
+}
+
 .titre-fonctionnement {
   text-align: left;
 }
@@ -72,6 +76,8 @@ h3 {
   cursor: pointer;
   background-color: #9356DC;
   width: 20px;
+  height: 20px;
+  padding: 0.2rem;
 }
 
 .first-button {
