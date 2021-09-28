@@ -1,38 +1,42 @@
-html, body {
+body {
   margin: 0;
   background-color: white;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
-html div, body div {
-  font-size: 2rem;
-}
-html .logo, body .logo {
+
+.logo {
   width: 50%;
   margin-top: 1rem;
   padding-left: 5.5rem;
 }
-html p, body p {
+
+p {
   text-align: center;
 }
-html .header-localisation, body .header-localisation {
+
+.header-localisation {
   font-size: 22px;
   padding-top: 1.5rem;
 }
-html .header-subtitle, body .header-subtitle {
+
+.header-subtitle {
   font-size: 15px;
 }
-html .contenu-header i, body .contenu-header i {
+
+.contenu-header i {
   border-top: grey 2px solid;
   width: 100%;
   position: absolute;
   padding-left: 3rem;
   padding-top: 1.4rem;
 }
-html h3, body h3 {
+
+h3 {
   text-align: center;
 }
-html .button-explorer, body .button-explorer {
+
+.button-explorer {
   border: 0;
   color: white;
   border-radius: 4rem;
@@ -43,21 +47,25 @@ html .button-explorer, body .button-explorer {
   width: 70%;
   margin-left: 3rem;
 }
-html .titre-fonctionnement, body .titre-fonctionnement {
+
+.titre-fonctionnement {
   text-align: left;
 }
-html .fonctionnement-items, body .fonctionnement-items {
+
+.fonctionnement-items {
   position: relative;
   background-color: #FFFFFF;
 }
-html .item-number, body .item-number {
+
+.item-number {
   position: absolute;
   top: 50%;
   left: 0;
   padding-top: 0.7rem;
   padding-left: 1rem;
 }
-html .btn-fonctionnement, body .btn-fonctionnement {
+
+.btn-fonctionnement {
   border: 0;
   color: white;
   border-radius: 50%;
@@ -65,23 +73,28 @@ html .btn-fonctionnement, body .btn-fonctionnement {
   background-color: #9356DC;
   width: 20px;
 }
-html .first-button, body .first-button {
+
+.first-button {
   display: flex;
   align-items: center;
 }
-html .first-button i, body .first-button i {
+
+.first-button i {
   margin-left: 1.2rem;
   color: grey;
 }
-html .third-button, body .third-button {
+
+.third-button {
   display: flex;
   align-items: center;
 }
-html .third-button i, body .third-button i {
+
+.third-button i {
   color: #9356DC;
   margin-left: 1rem;
 }
-html .ctn-fonctionnement, body .ctn-fonctionnement {
+
+.ctn-fonctionnement {
   font-size: 29px;
   background-color: #f6f6f6;
   position: relative;
@@ -94,29 +107,36 @@ html .ctn-fonctionnement, body .ctn-fonctionnement {
   cursor: pointer;
   margin-left: 3rem;
 }
-html i, body i {
+
+i {
   position: absolute;
   padding-top: 0.7rem;
   padding-left: 0.8rem;
   font-size: 25px;
 }
-html .icon-button, body .icon-button {
+
+.icon-button {
   position: absolute;
 }
-html .icon-button-color, body .icon-button-color {
+
+.icon-button-color {
   position: absolute;
   color: #9356DC;
 }
-html .img-restaurants, body .img-restaurants {
+
+.img-restaurants {
   width: 100%;
 }
-html .restau, body .restau {
+
+.restau {
   text-align: left;
 }
-html h2, body h2 {
+
+h2 {
   font-size: 25px;
 }
-html .subtitle-menus, body .subtitle-menus {
+
+.subtitle-menus {
   font-size: 20px;
   text-align: left;
 }
