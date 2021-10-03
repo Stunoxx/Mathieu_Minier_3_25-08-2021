@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: white;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -10,6 +9,7 @@ body {
     margin-top: 1rem;
     padding-left: 5.5rem;
 }
+
 p {
     text-align: center;
 }
@@ -29,11 +29,12 @@ p {
     position: absolute;
     padding-left: 3rem;
     padding-top: 1.4rem;
-    
 }
+
 h3 {
     text-align: center;
 }
+
 .button-explorer {
     border: 0;
     color: white;
@@ -57,8 +58,8 @@ h3 {
 .fonctionnement-items {
     position: relative;
     background-color: #FFFFFF;
-    
 }
+
 .item-number {
     position: absolute;
     top: 50%;
@@ -81,8 +82,6 @@ h3 {
 .first-button {
     display: flex;
     align-items: center
-    
-    
 }
 
 .first-button i {
@@ -131,30 +130,36 @@ i {
     padding-left: 1.8rem;
     color: grey;
 }
+
 .third-button i {
     padding-top: 0rem;
     padding-left: 0.7rem;
 }
+
 .icon-button {
     position: absolute;
 }
+
 .icon-button-color {
     position: absolute;
     color: #9356DC;
 }
+
 .img-restaurants {
     width: 100%;
 }
+
 .restau {
     text-align: left;
 }
+
 h2 {
     font-size: 25px;
 }
+
  .subtitle-menus {
     font-size: 20px;
     text-align: left;
-    
 }
 
 
