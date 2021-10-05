@@ -3,39 +3,32 @@ body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
-
-.logo {
+body .logo {
   width: 50%;
   margin-top: 1rem;
   padding-left: 5.5rem;
 }
-
-p {
+body p {
   text-align: center;
 }
-
-.header-localisation {
+body .header-localisation {
   font-size: 22px;
   padding-top: 1.5rem;
 }
-
-.header-subtitle {
+body .header-subtitle {
   font-size: 15px;
 }
-
-.contenu-header i {
+body .contenu-header i {
   border-top: grey 2px solid;
   width: 100%;
   position: absolute;
   padding-left: 3rem;
   padding-top: 1.4rem;
 }
-
-h3 {
+body h3 {
   text-align: center;
 }
-
-.button-explorer {
+body .button-explorer {
   border: 0;
   color: white;
   border-radius: 4rem;
@@ -46,29 +39,24 @@ h3 {
   width: 70%;
   margin-left: 3rem;
 }
-
-.main {
+body .main {
   padding-left: 1rem;
 }
-
-.titre-fonctionnement {
+body .titre-fonctionnement {
   text-align: left;
 }
-
-.fonctionnement-items {
+body .fonctionnement-items {
   position: relative;
   background-color: #FFFFFF;
 }
-
-.item-number {
+body .item-number {
   position: absolute;
   top: 50%;
   left: 0;
   padding-top: 0.7rem;
   padding-left: 1rem;
 }
-
-.btn-fonctionnement {
+body .btn-fonctionnement {
   border: 0;
   color: white;
   border-radius: 50%;
@@ -78,30 +66,25 @@ h3 {
   height: 20px;
   padding: 0.2rem;
 }
-
-.first-button {
+body .first-button {
   display: flex;
   align-items: center;
 }
-
-.first-button i {
+body .first-button i {
   margin-left: 1.2rem;
   color: grey;
   padding-top: 0rem;
   padding-left: 0.8rem;
 }
-
-.third-button {
+body .third-button {
   display: flex;
   align-items: center;
 }
-
-.third-button i {
+body .third-button i {
   color: #9356DC;
   margin-left: 1rem;
 }
-
-.ctn-fonctionnement {
+body .ctn-fonctionnement {
   font-size: 20px;
   background-color: #f6f6f6;
   position: relative;
@@ -114,52 +97,79 @@ h3 {
   margin-left: 4rem;
   padding: 1rem;
 }
-
-i {
+body i {
   position: absolute;
   font-size: 25px;
 }
-
-.second-button {
+body .second-button {
   display: flex;
   align-items: center;
 }
-
-.second-button i {
+body .second-button i {
   padding-top: 0rem;
   padding-left: 1.8rem;
   color: grey;
 }
-
-.third-button i {
+body .third-button i {
   padding-top: 0rem;
   padding-left: 0.7rem;
 }
-
-.icon-button {
+body .icon-button {
   position: absolute;
 }
-
-.icon-button-color {
+body .icon-button-color {
   position: absolute;
   color: #9356DC;
 }
-
-.img-restaurants {
+body .img-restaurants {
   width: 100%;
 }
-
-.restau {
+body .restau {
   text-align: left;
 }
-
-h2 {
+body h2 {
   font-size: 25px;
 }
-
-.subtitle-menus {
+body .titre-menu {
+  font-family: "Shrikhand", cursive;
+}
+body .subtitle-menus {
   font-size: 20px;
   text-align: left;
+}
+body .entrees {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 20px;
+}
+body .plats {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 20px;
+}
+body .menu-plats {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+body .acc-plats {
+  text-align: left;
+  margin-left: 1rem;
+}
+body .prix {
+  text-align: right;
+}
+body .button-command {
+  border: 0;
+  color: white;
+  border-radius: 4rem;
+  cursor: pointer;
+  height: 3.5rem;
+  transition: all 0.2s;
+  background: linear-gradient(#FF79DA, #9356DC);
+  width: 62%;
+  margin-left: 3rem;
 }
 
 /*# sourceMappingURL=index.css.map */

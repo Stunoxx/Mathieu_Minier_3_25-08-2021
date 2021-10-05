@@ -2,7 +2,8 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-}
+    
+
 
 .logo {
     width: 50%;
@@ -157,9 +158,51 @@ h2 {
     font-size: 25px;
 }
 
+.titre-menu {
+    font-family: 'Shrikhand', cursive;
+}
+
  .subtitle-menus {
     font-size: 20px;
     text-align: left;
 }
+.entrees {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 20px;
+}
 
+.plats {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 20px;
+}
 
+.menu-plats {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.acc-plats {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.prix {
+    text-align: right;
+}
+
+.button-command {
+    border: 0;
+    color: white;
+    border-radius: 4rem;
+    cursor: pointer;
+    height: 3.5rem;
+    transition: all 0.2s;
+    background: linear-gradient(#FF79DA  , #9356DC );
+    width: 62%;
+    margin-left: 3rem;
+}
+}
