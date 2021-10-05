@@ -74,7 +74,7 @@ body .first-button i {
   margin-left: 1.2rem;
   color: grey;
   padding-top: 0rem;
-  padding-left: 0.8rem;
+  padding-left: 1.2rem;
 }
 body .third-button {
   display: flex;
@@ -82,7 +82,7 @@ body .third-button {
 }
 body .third-button i {
   color: #9356DC;
-  margin-left: 1rem;
+  margin-left: 1.4rem;
 }
 body .ctn-fonctionnement {
   font-size: 20px;
@@ -94,7 +94,7 @@ body .ctn-fonctionnement {
   display: flex;
   align-items: center;
   cursor: pointer;
-  margin-left: 4rem;
+  margin-left: 3rem;
   padding: 1rem;
 }
 body i {
@@ -107,7 +107,7 @@ body .second-button {
 }
 body .second-button i {
   padding-top: 0rem;
-  padding-left: 1.8rem;
+  padding-left: 2.2rem;
   color: grey;
 }
 body .third-button i {
