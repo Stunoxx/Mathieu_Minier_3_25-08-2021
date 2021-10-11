@@ -25,7 +25,7 @@ p {
 }
 
 .contenu-header i  {
-    border-top: grey 2px solid;
+    
     width: 100%;
     position: absolute;
     padding-left: 3rem;
@@ -170,6 +170,9 @@ h2 {
     text-align: left;
     margin-left: 1rem;
     font-size: 20px;
+    border-bottom:#99E2D0 2px solid ;
+    width: 13%;
+    padding: 0 0 0.3rem;
 }
 
 .plats {
@@ -183,15 +186,19 @@ h2 {
     margin-left: 1rem;
     font-size: 20px;
     font-weight: bold;
+    margin: 0.8rem;
 }
 
 .acc-plats {
     text-align: left;
     margin-left: 1rem;
+    font-size: 18px;
 }
 
 .prix {
     text-align: right;
+    font-weight: bold;
+    padding-right: 2rem;
 }
 
 .button-command {
@@ -204,5 +211,24 @@ h2 {
     background: linear-gradient(#FF79DA  , #9356DC );
     width: 62%;
     margin-left: 3rem;
+}
+
+.plats {
+    border-bottom:#99E2D0 2px solid ;
+    width: 13%;
+    padding: 0 0 0.3rem;
+    padding-top: 2rem;
+}
+
+.bloc-entrees {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+    background-color: white;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.acc-prix {
+    display: flex;
+    justify-content: space-between;
 }
 }

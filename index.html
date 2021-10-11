@@ -11,8 +11,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css" />
   <link rel="stylesheet" href="./css/menu.css" />
 
@@ -22,6 +24,7 @@
 <body>
   <header>
     <img class="logo" src="./imgp3/ohmyfood.png" alt="Logo du site" />
+    <hr>
     <div class="contenu-header">
       <i class="fas fa-map-marker-alt"></i>
       <p class="header-localisation">Paris,Belleville</p>
@@ -62,49 +65,81 @@
       <h3 class="restau">Restaurants</h3>
       <img class="img-restaurants" src="./imgp3/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image Restaurants" />
       <span class="heart">
-
+        <i class="far fa-heart"></i>
       </span>
       <h2 class="titre-menu">La palette du goût</h2>
       <p class="subtitle-menus">Ménilmontant</p>
       <div class="menu-restaurants">
         <!--Menu restaurants 1-->
         <h3>La palette du goût</h3>
-        <p class="entrees">Entrées</p>
-
-        <p class="menu-plats">Fricassée d'escargot</p>
-        <p class="subtitle-menus"></p>
-        <p class="acc-plats">Au pimet d'espelette</p>
-        <p class="prix">25€</p>
-
-        <p class="menu-plats">Foie gras de canard mi-cuit</p>
-        <p class="acc-plats">Et ses copeaux de truffe noire</p>
-        <p class="prix">35€</p>
-
-        <p class="menu-plats">Oeuf au plat</p>
-        <p class="acc-plats">Assaisoné à la truffe sur lit de caviar</p>
-        <p class="prix">20€</p>
-
-        <p class="plats">Plats</p>
-        <p class="menu-plats">Filet de boeuf aux herbes</p>
-        <p class="acc-plats">Accompagné de sa rimbambelle de légumes</p>
-        <p class="prix">40€</p>
-        <p class="menu-plats">Parmentier de queue de boeuf</p>
-        <p class="acc-plats">À la truffe noire sur sa purée de panais</p>
-        <p class="prix">35€</p>
-        <p class="menu-plats">Filet de Turbot</p>
-        <p class="acc-plats">Aux agrumes</p>
-        <p class="prix">44€</p>
-
-        <p class="plats">Desserts</p>
+        <p class="entrees">ENTRÉES</p>
+        <div class="bloc-entrees">
+         <p class="menu-plats">Fricassée d'escargot</p>
+         <p class="subtitle-menus"></p>
+         <div class="acc-prix">
+         <p class="acc-plats">Au pimet d'espelette</p> 
+         <p class="prix">25€</p>
+        </div>
+        </div>
+        <div class="bloc-entrees">
+         <p class="menu-plats">Foie gras de canard mi-cuit</p>
+         <div class="acc-prix">
+          <p class="acc-plats">Et ses copeaux de truffe noire</p>
+          <p class="prix">35€</p>
+        </div>
+        </div>
+        
+        <div class="bloc-entrees">
+         <p class="menu-plats">Oeuf au plat</p>
+         <div class="acc-prix">
+          <p class="acc-plats">Assaisoné à la truffe sur lit de....</p>
+          <p class="prix">20€</p>
+        </div>
+        </div>
+        <p class="plats">PLATS</p>
+        <div class="bloc-entrees">
+         <p class="menu-plats">Filet de boeuf aux herbes</p>
+         <div class="acc-prix"> 
+          <p class="acc-plats">Accompagné de sa rimbambelle de légu...</p>
+          <p class="prix">40€</p>
+        </div>
+        </div>
+        <div class="bloc-entrees">
+         <p class="menu-plats">Parmentier de queue de boeuf</p>
+         <div class="acc-prix">
+          <p class="acc-plats">À la truffe noire sur sa purée de panais</p>
+          <p class="prix">35€</p>
+        </div>
+       </div>
+        <div class="bloc-entrees">
+         <p class="menu-plats">Filet de Turbot</p>
+         <div class="acc-prix"> 
+          <p class="acc-plats">Aux agrumes</p>
+          <p class="prix">44€</p>
+         </div>
+       </div>
+        <p class="plats">DESSERTS</p>
+        <div class="bloc-entrees">
         <p class="menu-plats">Paris-Brest</p>
-        <p class="acc-plats">Revisité</p>
-        <p class="prix">18€</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Revisité</p>
+         <p class="prix">18€</p>
+        </div>
+      </div>
+        <div class="bloc-entrees">
         <p class="menu-plats">Macaron au chocolat d'exception</p>
-        <p class="acc-plats">Et glace à la vanille de Madagascar</p>
-        <p class="prix">22€</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Et glace à la vanille de Madagascar</p>
+         <p class="prix">22€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Mousse au chocolat</p>
-        <p class="acc-plats">Au piment d'espelette et à la truffe noire</p>
-        <p class="prix">23€</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Au piment d'espelette et à la truffe noire</p>
+         <p class="prix">23€</p>
+        </div>
+      </div>
         <button class="button-command">Commander</button>
       </div>
 
@@ -120,53 +155,87 @@
       <div class="menu-restaurants">
         <!--Menu restaurants 2-->
         <h3>La note enchantée</h3>
-        <p class="entrees">Entrées</p>
-
+        <p class="entrees">ENTRÉES</p>
+      <div class="bloc-entrees">
         <p class="menu-plats">Ravioles de foie gras</p>
-        <p class="acc-plats">Accompagné de leur crème à la truffe</p>
-        <p class="prix">25€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Accompagné de leur crème à la truffe</p>
+         <p class="prix">25€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Caviar osciètre</p>
+        <div class="acc-prix">
         <p class="acc-plats">Sur blini à la farine de blé noir</p>
         <p class="prix">35€</p>
-
+      </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Homard et espuma de potiron</p>
-        <p class="acc-plats">Mariné aux zestes d'orange</p>
-        <p class="prix">20€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Mariné aux zestes d'orange</p>
+         <p class="prix">20€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Foie gras de canard cuit entier</p>
-        <p class="acc-plats">Confiture de figue et pain toasté</p>
-        <p class="prix">35€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Confiture de figue et pain toasté</p>
+         <p class="prix">35€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Foie gras de canard cuit entier</p>
-        <p class="acc-plats">Confiture de figue et pain toasté</p>
-        <p class="prix">35€</p>
-
-        <p class="plats">Plats</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Confiture de figue et pain toasté</p>
+         <p class="prix">35€</p>
+        </div>
+      </div>
+        <p class="plats">PLATS</p>
+      <div class="bloc-entrees">
         <p class="menu-plats">Noix de coquilles Saint-Jacques</p>
-        <p class="acc-plats">Sur lit de purée de céleri-rave</p>
-        <p class="prix">40€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Sur lit de purée de céleri-rave</p>
+         <p class="prix">40€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Langoustine poêlée</p>
-        <p class="acc-plats">Purée de patate douce</p>
-        <p class="prix">35€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Purée de patate douce</p>
+         <p class="prix">35€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Mijoté de queue de boeuf</p>
-        <p class="acc-plats">Et riz sauvage aux zestes de citron</p>
-        <p class="prix">44€</p>
-
-        <p class="plats">Desserts</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Et riz sauvage aux zestes de citron</p>
+         <p class="prix">44€</p>
+        </div>
+      </div>
+        <p class="plats">DESSERTS</p>
+      <div class="bloc-entrees">
         <p class="menu-plats">Macaron noisette et chocolat</p>
-        <p class="acc-plats">Glace au caramel brun et sel de Guérande</p>
-        <p class="prix">18€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Glace au caramel brun et sel de Guérande</p>
+         <p class="prix">18€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Baba au rhum revisité </p>
-        <p class="acc-plats">Avec son coulis de citron</p>
-        <p class="prix">22€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Avec son coulis de citron</p>
+         <p class="prix">22€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Tarte au citron meringuée </p>
-        <p class="acc-plats">Déstructurée</p>
-        <p class="prix">23€</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Déstructurée</p>
+         <p class="prix">23€</p>
+        </div>
+        </div>
+      </div>
         <button class="button-command">Commander</button>
       </div>
     </div>
@@ -179,45 +248,72 @@
       <div class="menu-restaurants">
         <!--Menu restaurants 3-->
         <h3>À la française</h3>
-        <p class="entrees">Entrées</p>
-
+        <p class="entrees">ENTRÉES</p>
+      <div class="bloc-entrees">
         <p class="menu-plats">Tartare de poulpe acidulé</p>
-        <p class="acc-plats">Aux zestes d'orange</p>
-        <p class="prix">25€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Aux zestes d'orange</p>
+         <p class="prix">25€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Velouté de légumes d'antan</p>
-        <p class="acc-plats">Carotte, panais, topinambour</p>
-        <p class="prix">35€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Carotte, panais, topinambour</p>
+         <p class="prix">35€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Soupe à l'oignon</p>
-        <p class="acc-plats">Revisitée</p>
-        <p class="prix">20€</p>
-
-        <p class="plats">Plats</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Revisitée</p>
+         <p class="prix">20€</p>
+        </div>
+      </div>
+        <p class="plats">PLATS</p>
+      <div class="bloc-entrees">
         <p class="menu-plats">Coquilles Saint-Jacques</^>
-        <p class="acc-plats">Accompagnées d'une purée de panais</p>
-        <p class="prix">40€</p>
-
+        <div class="acc-prix">
+          <p class="acc-plats">Accompagnées d'une purée de panais</p>
+          <p class="prix">40€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Magret de canard</p>
-        <p class="acc-plats">Et parmentier de pommes de terre</p>
-        <p class="prix">35€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Et parmentier de pommes de terre</p>
+         <p class="prix">35€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Pigeonneau d’Ille-et-Vilaine</p>
-        <p class="acc-plats">Sur son lit de gnocchis aux légumes</p>
-        <p class="prix">44€</p>
-
-        <p class="plats">Desserts</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Sur son lit de gnocchis aux légumes</p>
+         <p class="prix">44€</p>
+        </div>
+      </div>
+        <p class="plats">DESSERTS</p>
+      <div class="bloc-entrees">
         <p class="menu-plats">Pétales de violettes glacés</p>
-        <p class="acc-plats">Et purée de noisettes</p>
-        <p class="prix">18€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Et purée de noisettes</p>
+         <p class="prix">18€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Fondant au chocolat </p>
-        <p class="acc-plats">Revisité</p>
-        <p class="prix">22€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Revisité</p>
+         <p class="prix">22€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Millefeuille croustillant</p>
-        <p class="acc-plats">Myrtilles et pâte d’amande</p>
-        <p class="prix">23€</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Myrtilles et pâte d’amande</p>
+         <p class="prix">23€</p>
+        </div>
+      </div>
         <button class="button-command">Commander</button>
       </div>
     </div>
@@ -230,45 +326,72 @@
       <div class="menu-restaurants">
         <!--Menu restaurants 4-->
         <h3>Le délice des sens</h3>
-        <p class="entrees">Entrées</p>
-
+        <p class="entrees">ENTRÉES</p>
+      <div class="bloc-entrees">
         <p class="menu-plats">Tartare de thon</p>
-        <p class="acc-plats">Assaisonné au yuzu</p>
-        <p class="prix">25€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Assaisonné au yuzu</p>
+         <p class="prix">25€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Bouchée de homard croustillant </p>
-        <p class="acc-plats">Et sa farandole de petits légumes</p>
-        <p class="prix">35€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Et sa farandole de petits légumes</p>
+         <p class="prix">35€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Velouté de cèpes </p>
-        <p class="acc-plats">Aux truffes</p>
-        <p class="prix">20€</p>
-
-        <p class="plats">Plats</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Aux truffes</p>
+         <p class="prix">20€</p>
+        </div>
+      </div>
+        <p class="plats">PLATS</p>
+        <div class="bloc-entrees"></div>
         <p class="menu-plats">Poulet rôti aux herbes de Provence </p>
-        <p class="acc-plats">Et sa crème de truffe</p>
-        <p class="prix">40€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Et sa crème de truffe</p>
+         <p class="prix">40€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Langouste rôtie </p>
-        <p class="acc-plats">Et ses légumes de saison</p>
-        <p class="prix">35€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Et ses légumes de saison</p>
+         <p class="prix">35€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Côte de boeuf Angus </p>
-        <p class="acc-plats">Et sa purée de panais</p>
-        <p class="prix">44€</p>
-
-        <p class="plats">Desserts</p>
+        <div class="acc-prix">
+         <p class="acc-plats">Et sa purée de panais</p>
+         <p class="prix">44€</p>
+        </div>
+      </div>
+      <p class="plats">DESSERTS</p>
+      <div class="bloc-entrees">
         <p class="menu-plats">Farandole de desserts</p>
-        <p class="acc-plats">Du chef</p>
-        <p class="prix">18€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Du chef</p>
+         <p class="prix">18€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Crème brulée</p>
-        <p class="acc-plats">Revisité</p>
-        <p class="prix">22€</p>
-
+        <div class="acc-prix">
+         <p class="acc-plats">Revisité</p>
+         <p class="prix">22€</p>
+        </div>
+      </div>
+      <div class="bloc-entrees">
         <p class="menu-plats">Tiramisu</p>
-        <p class="acc-plats">À la noisette</p>
-        <p class="prix">23€</p>
+        <div class="acc-prix">
+         <p class="acc-plats">À la noisette</p>
+         <p class="prix">23€</p>
+        </div>
+      </div>
         <button class="button-command">Commander</button>
       </div>
     </div>

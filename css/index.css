@@ -19,7 +19,6 @@ body .header-subtitle {
   font-size: 15px;
 }
 body .contenu-header i {
-  border-top: grey 2px solid;
   width: 100%;
   position: absolute;
   padding-left: 3rem;
@@ -141,6 +140,9 @@ body .entrees {
   text-align: left;
   margin-left: 1rem;
   font-size: 20px;
+  border-bottom: #99E2D0 2px solid;
+  width: 13%;
+  padding: 0 0 0.3rem;
 }
 body .plats {
   text-align: left;
@@ -152,13 +154,17 @@ body .menu-plats {
   margin-left: 1rem;
   font-size: 20px;
   font-weight: bold;
+  margin: 0.8rem;
 }
 body .acc-plats {
   text-align: left;
   margin-left: 1rem;
+  font-size: 18px;
 }
 body .prix {
   text-align: right;
+  font-weight: bold;
+  padding-right: 2rem;
 }
 body .button-command {
   border: 0;
@@ -170,6 +176,22 @@ body .button-command {
   background: linear-gradient(#FF79DA, #9356DC);
   width: 62%;
   margin-left: 3rem;
+}
+body .plats {
+  border-bottom: #99E2D0 2px solid;
+  width: 13%;
+  padding: 0 0 0.3rem;
+  padding-top: 2rem;
+}
+body .bloc-entrees {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 16px;
+  background-color: white;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+body .acc-prix {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=index.css.map */
