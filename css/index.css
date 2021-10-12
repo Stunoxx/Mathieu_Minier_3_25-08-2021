@@ -205,6 +205,7 @@ body .bloc-entrees {
   cursor: pointer;
   display: list-item;
   position: relative;
+  width: 100%;
 }
 body .acc-prix {
   display: flex;
