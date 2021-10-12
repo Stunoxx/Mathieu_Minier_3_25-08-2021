@@ -129,6 +129,9 @@ body .restau {
 body h2 {
   font-size: 25px;
 }
+body .heart {
+  display: none;
+}
 body .titre-menu {
   font-family: "Shrikhand", cursive;
 }
@@ -152,14 +155,14 @@ body .plats {
 body .menu-plats {
   text-align: left;
   margin-left: 1rem;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   margin: 0.8rem;
 }
 body .acc-plats {
   text-align: left;
   margin-left: 1rem;
-  font-size: 18px;
+  font-size: 15px;
 }
 body .prix {
   text-align: right;
@@ -188,10 +191,38 @@ body .bloc-entrees {
   border-radius: 16px;
   background-color: white;
   padding: 0.5rem 0 0.5rem 0.5rem;
+  cursor: pointer;
+  display: list-item;
+  position: relative;
 }
 body .acc-prix {
   display: flex;
   justify-content: space-between;
+}
+body .acc-prix:hover {
+  width: 75%;
+}
+body .anim-check:hover {
+  transform: rotate(-360deg);
+  transition-duration: 1s;
+  transform: translateX(-100%);
+  visibility: visible;
+  -webkit-transform: all 0.5s ease-in;
+}
+body .anim-check {
+  background: #99E2D0;
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 16px 16px 0;
+}
+body i.fas.fa-check-circle {
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */
