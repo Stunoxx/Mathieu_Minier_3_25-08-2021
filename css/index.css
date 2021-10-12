@@ -140,11 +140,10 @@ body .restau {
 body h2 {
   font-size: 25px;
 }
-body .heart {
-  display: none;
-}
 body .titre-menu {
   font-family: "Shrikhand", cursive;
+  text-align: left;
+  margin-left: 1rem;
 }
 body .subtitle-menus {
   font-size: 20px;
