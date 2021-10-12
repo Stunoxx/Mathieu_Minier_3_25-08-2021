@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    
 
 
 .logo {
@@ -204,7 +203,7 @@ h2 {
     font-size: 17px;
     font-weight: bold;
     margin: 0.8rem;
-    
+    margin-bottom: 0;
 }
 
 .acc-plats {
@@ -247,32 +246,49 @@ h2 {
     cursor: pointer;
     display: list-item;
     position: relative;
-    width: 100%;
-    
-    
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
 }
 
+.bloc-entrees:hover .acc-prix  {
+   width: 75%;
+}
+
+.bloc-entrees:hover .anim-check {
+    transition-duration: 1s;
+    transform: translateX(-100%);
+    visibility: visible;
+    -webkit-transform: all 0.5s ease-in;
+    width: 20%;
+}
+
+.bloc-entrees:hover .anim-check-icon {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.anim-check-icon {
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
 .acc-prix {
     display: flex;
     justify-content: space-between;
 }
 
-.acc-prix:hover {
-    width: 75%;
-    
-}
 
-.anim-check:hover {
-    transform: rotate(-360deg);
+.anim-check {
     transition-duration: 1s;
-    transform: translateX(-100%);
-    visibility: visible;
-    -webkit-transform: all 0.5s ease-in;
+    visibility: hidden;
+    transform: all 0.5s ease-in;
+    width: 0;
 }
 
 .anim-check {
     background: #99E2D0;
-    width: 20%;
+    width: 0%;
     position: absolute;
     top: 0;
     right: 0;
@@ -288,4 +304,14 @@ i.fas.fa-check-circle{
     color: white;
 }
 
+}
+@media (min-width: 768px) {
+    body {
+        background: black;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        background: red;
+    }
 }

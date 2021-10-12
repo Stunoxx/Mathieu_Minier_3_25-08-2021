@@ -168,6 +168,7 @@ body .menu-plats {
   font-size: 17px;
   font-weight: bold;
   margin: 0.8rem;
+  margin-bottom: 0;
 }
 body .acc-plats {
   text-align: left;
@@ -204,25 +205,41 @@ body .bloc-entrees {
   cursor: pointer;
   display: list-item;
   position: relative;
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+body .bloc-entrees:hover .acc-prix {
+  width: 75%;
+}
+body .bloc-entrees:hover .anim-check {
+  transition-duration: 1s;
+  transform: translateX(-100%);
+  visibility: visible;
+  -webkit-transform: all 0.5s ease-in;
+  width: 20%;
+}
+body .bloc-entrees:hover .anim-check-icon {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+body .anim-check-icon {
+  transform: rotate(0deg);
+  transition-duration: 1s;
 }
 body .acc-prix {
   display: flex;
   justify-content: space-between;
 }
-body .acc-prix:hover {
-  width: 75%;
-}
-body .anim-check:hover {
-  transform: rotate(-360deg);
+body .anim-check {
   transition-duration: 1s;
-  transform: translateX(-100%);
-  visibility: visible;
-  -webkit-transform: all 0.5s ease-in;
+  visibility: hidden;
+  transform: all 0.5s ease-in;
+  width: 0;
 }
 body .anim-check {
   background: #99E2D0;
-  width: 20%;
+  width: 0%;
   position: absolute;
   top: 0;
   right: 0;
@@ -235,6 +252,17 @@ body .anim-check {
 }
 body i.fas.fa-check-circle {
   color: white;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: black;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    background: red;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
