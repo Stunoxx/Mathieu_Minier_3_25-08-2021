@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -140,6 +141,46 @@ body .restau {
 body h2 {
   font-size: 25px;
 }
+body .menu-restaurants {
+  background-color: #f6f6f6;
+}
+body .titre-coeur {
+  position: relative;
+  height: 5rem;
+  overflow: hidden;
+}
+body .anim-heart {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  font-size: 2rem;
+  right: 10%;
+  padding-bottom: 1.5rem;
+}
+body .anim-coeur2 {
+  max-height: 0;
+  transition: max-height 1s linear;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+body .heart-2 {
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 1s linear;
+  color: red;
+  font-size: 2rem;
+  right: 10%;
+  padding-bottom: 1.35rem;
+}
+body .titre-coeur:hover .anim-coeur2 {
+  max-height: 5rem;
+}
+body .titre-coeur:hover .heart-2 {
+  transform: translateY(0);
+}
 body .titre-menu {
   font-family: "Shrikhand", cursive;
   text-align: left;
@@ -203,11 +244,12 @@ body .bloc-entrees {
   background-color: white;
   padding: 0.5rem 0 0.5rem 0.5rem;
   cursor: pointer;
-  display: list-item;
+  display: inline-block;
   position: relative;
   width: 90%;
   margin: auto;
   overflow: hidden;
+  margin-left: 1rem;
 }
 body .bloc-entrees:hover .acc-prix {
   width: 75%;
@@ -253,6 +295,37 @@ body .anim-check {
 body i.fas.fa-check-circle {
   color: white;
 }
+body .footer-global {
+  background-color: #333232db;
+  overflow: hidden;
+}
+body .footer-global .titre-spé {
+  font-family: "Shrikhand", cursive;
+  color: white;
+  font-size: 18px;
+  margin-left: 1rem;
+}
+body .footer-global .footer-text {
+  text-decoration: none;
+  color: white;
+}
+body .footer-global .footer-text1 {
+  text-decoration: none;
+  color: white;
+  padding-left: 2rem;
+}
+body .footer-global .footer-text2 {
+  text-decoration: none;
+  color: white;
+  padding-left: 2rem;
+}
+body .footer-global i {
+  color: white;
+  font-size: 20px;
+}
+body .footer-global ul {
+  list-style-type: none;
+}
 
 @media (min-width: 768px) {
   body {
@@ -261,7 +334,7 @@ body i.fas.fa-check-circle {
 }
 @media (min-width: 1024px) {
   body {
-    background: red;
+    background: blue;
   }
 }
 
