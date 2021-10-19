@@ -2,8 +2,51 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    background-color: #f6f6f6;
 
+.loading-spinner {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF80;
+    animation: loadinger 0.1s;
+    animation-delay: 2.9s;
+    animation-fill-mode: both;
+}
 
+.loading {
+    border: 5px solid #9356DC;
+    border-top: 5px solid #99E2D0;
+    border-bottom: 5px solid #FF79DA;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: loading 0.7s ease-in-out;
+    animation-iteration-count: 3;
+}
+
+@keyframes loading {
+    0%
+    { 
+        transform: rotate(0deg); 
+    }
+    100%
+    { 
+        transform: rotate(360deg);
+    }
+}
+
+ @keyframes loadinger {
+    100%
+    {
+       opacity: 0;
+       z-index: -1;
+    }
+ }
+    
 .logo {
     width: 50%;
     margin-top: 1rem;
@@ -16,7 +59,7 @@ p {
 
 .header-localisation {
     font-size: 22px;
-    padding-top: 1.5rem;
+    
 }
 
 .header-subtitle {
@@ -26,7 +69,11 @@ p {
 .contenu-header i  {
     width: 100%;
     position: absolute;
-    padding-top: 1.4rem;
+}
+
+.icon-titre {
+    display: block;
+    padding-bottom: 1rem;
 }
 
 h3 {
@@ -286,14 +333,13 @@ h2 {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 16px;
     background-color: white;
-    padding: 0.5rem 0 0.5rem 0.5rem;
     cursor: pointer;
     display: inline-block;
     position: relative;
     width: 90%;
     margin: auto;
     overflow: hidden;
-    margin-left: 1rem;
+    margin: 0.9rem;
 }
 
 .bloc-entrees:hover .acc-prix  {
