@@ -281,6 +281,9 @@ body .button-command {
   margin-left: 3rem;
   margin-top: 2rem;
 }
+body .button-ctn {
+  width: 100%;
+}
 body .plats {
   border-bottom: #99E2D0 2px solid;
   width: 13%;
