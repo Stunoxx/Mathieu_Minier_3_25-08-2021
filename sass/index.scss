@@ -66,11 +66,15 @@ p {
 }
 
 .header-subtitle {
-    font-size: 15px;
+    font-size: 20px;
+    width: 98%;
 }
-
+.textbold {
+    font-size: 30px;
+    margin-top: 0;
+}
 .contenu-header i  {
-    width: 100%;
+    left: 6rem;
     position: absolute;
 }
 
@@ -221,23 +225,22 @@ h2 {
     background-color: #f6f6f6;
 }
 
-.titre-coeur {
+.toto {
     position: relative;
     height: 5rem;
-    
+    overflow: hidden;
   }
-
-  .anim-heart {
+  
+  .heart-1 {
     color: black;
     position: absolute;
     bottom: 0;
-    font-size: 2rem;
-    right: 10%;
-    padding-bottom: 1.5rem;
-    overflow: hidden;
+    font-size: 1.95rem;
+    margin-bottom: 1.5rem;
+    left: 20rem
   }
-
-  .anim-coeur2 {
+  
+  .titi {
     max-height: 0;
     transition: max-height 1s linear;
     overflow: hidden;
@@ -245,24 +248,25 @@ h2 {
     bottom: 0;
     left: 0;
     z-index: 2;
-  }
-
-  .heart-2 {
-    position: absolute;
-    transform: translateY(-100%);
-    transition: transform 1s linear;
-    background: linear-gradient(#FF79DA  , #9356DC );
-    font-size: 2rem;
-    right: 10%;
-    padding-bottom: 1.35rem;
-    
-  }
-
-  .titre-coeur:hover .anim-coeur2 {
-    max-height: 5rem;
+    left: 20rem;
+    margin-bottom: 1.5rem;
   }
   
-  .titre-coeur:hover .heart-2 {
+  .heart-2 {
+    position: relative;
+    transform: translateY(-100%);
+    transition: transform 1s linear;
+    color: transparent;
+    font-size: 1.95rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    -webkit-background-clip: text;
+  }
+  
+  .toto:hover .titi {
+    max-height: 1.95rem;
+  }
+  
+  .toto:hover .heart-2 {
     transform: translateY(0);
   }
 
@@ -324,6 +328,7 @@ h2 {
     background: linear-gradient(#FF79DA  , #9356DC );
     width: 62%;
     margin-left: 3rem;
+    margin-top: 2rem;
 }
 
 .plats {
@@ -400,12 +405,13 @@ i.fas.fa-check-circle{
 
 .footer-global { 
     background-color: #333232db;
-    
+    margin-top: 5rem;
+
     .titre-spé {
         font-family: 'Shrikhand', cursive;
         color: white;
         font-size: 18px;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
     }
     overflow: hidden;
 
@@ -434,6 +440,8 @@ i.fas.fa-check-circle{
 
 .footer-global ul {
     list-style-type: none;
+    position: relative;
+    right: 1rem;
 }
 
 }
@@ -444,6 +452,50 @@ i.fas.fa-check-circle{
 }
 @media (min-width: 1024px) {
     body {
-        background: blue;
+        background: #FFF;
+
+.logo {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+    left: 35rem;
+}
+
+.contenu-header i {
+    position: relative;
+    left: 20rem;
+}
+
+.button-explorer {
+    position: relative;
+    left: 25rem;
+    width: 50%;
+}
+
+.titre-fonctionnement {
+    padding-left: 6rem;
+}
+.main {
+    position: relative;
+    left: 40%;
+}
+.restaurants {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
