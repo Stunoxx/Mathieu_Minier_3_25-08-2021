@@ -196,6 +196,9 @@ body .menu-restaurants {
 }
 body .nom-restau {
   position: relative;
+  transform: translateY(-29px);
+  border-radius: 2rem;
+  background: #f6f6f6;
 }
 body .toto {
   position: relative;
@@ -269,6 +272,7 @@ body .entrees {
   border-bottom: #99E2D0 2px solid;
   width: 13%;
   padding: 0 0 0.3rem;
+  margin-top: 0;
 }
 body .plats {
   text-align: left;
