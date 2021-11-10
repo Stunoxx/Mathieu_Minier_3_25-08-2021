@@ -227,6 +227,21 @@ h2 {
 
 .menu-restaurants {
     background-color: #f6f6f6;
+    transition: .5s;
+    animation: slide 2s reverse;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    
+    
 }
 
 .nom-restau {
@@ -299,8 +314,7 @@ h2 {
     text-align: left;
     margin: 0;
     margin-left: 1rem;
-    position: relative;
-    bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .arrow {
@@ -325,7 +339,21 @@ h2 {
     text-align: left;
     margin-left: 1rem;
     font-size: 20px;
+    border-bottom:#99E2D0 2px solid ;
+    width: 13%;
+    padding: 0 0 0.3rem;
+    padding-top: 2rem;
 }
+
+.desserts {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 20px;
+    border-bottom:#99E2D0 2px solid ;
+    width: 13%;
+    padding: 0 0 0.3rem;
+    padding-top: 2rem;
+ }
 
 .menu-plats {
     text-align: left;
@@ -358,7 +386,7 @@ h2 {
     transition: all 0.2s;
     background: linear-gradient(#FF79DA  , #9356DC );
     width: 62%;
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: 2rem;
 }
 
@@ -366,12 +394,7 @@ h2 {
     width: 100%;
 }
 
-.plats {
-    border-bottom:#99E2D0 2px solid ;
-    width: 13%;
-    padding: 0 0 0.3rem;
-    padding-top: 2rem;
-}
+
 
 .bloc-entrees {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -509,6 +532,19 @@ i.fas.fa-check-circle{
     width: 20%;
 }
 
+.button-command {
+    border: 0;
+    color: white;
+    border-radius: 4rem;
+    cursor: pointer;
+    height: 3.5rem;
+    transition: all 0.2s;
+    background: linear-gradient(#FF79DA  , #9356DC );
+    width: 32%;
+    position: relative;
+   left: 30%;
+}
+
 .titre-fonctionnement {
     padding-left: 6rem;
 }
@@ -534,6 +570,14 @@ i.fas.fa-check-circle{
     left: 40%;
 }
 
+.restau {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+}
+
 .green-ticket {
     position: relative;
     background-color: #99E2D0;
@@ -544,9 +588,48 @@ i.fas.fa-check-circle{
     padding: 0.5rem;
 }
 
+.bloc-entrees:hover .anim-check {
+    transition-duration: 1s;
+    transform: translateX(-100%);
+    visibility: visible;
+    -webkit-transform: all 0.5s ease-in;
+    width: 20%;
+}
 
+.bloc-entrees:hover .anim-check-icon {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
 
+.bloc-entrees:hover .acc-prix  {
+    width: 75%;
+ }
 
+ .entrees {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 20px;
+    border-bottom:#99E2D0 2px solid ;
+    width: 4.5%;
+    padding: 0 0 0.3rem;
+    margin-top: 0;
+ }
+
+ .plats {
+     border-bottom: 2px solid rgb(153, 226, 208);
+     width: 3%;
+     padding: 2rem 0px 0.3rem;
+ }
+
+ .desserts {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 20px;
+    border-bottom:#99E2D0 2px solid ;
+    width: 5%;
+    padding: 0 0 0.3rem;
+    padding-top: 2rem;
+ }
 
 
 

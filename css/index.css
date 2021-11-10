@@ -193,6 +193,18 @@ body h2 {
 }
 body .menu-restaurants {
   background-color: #f6f6f6;
+  transition: 0.5s;
+  animation: slide 2s reverse;
+}
+@keyframes slide {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
 }
 body .nom-restau {
   position: relative;
@@ -255,8 +267,7 @@ body .subtitle-menus {
   text-align: left;
   margin: 0;
   margin-left: 1rem;
-  position: relative;
-  bottom: 1rem;
+  padding-bottom: 1rem;
 }
 body .arrow {
   color: black;
@@ -278,6 +289,19 @@ body .plats {
   text-align: left;
   margin-left: 1rem;
   font-size: 20px;
+  border-bottom: #99E2D0 2px solid;
+  width: 13%;
+  padding: 0 0 0.3rem;
+  padding-top: 2rem;
+}
+body .desserts {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 20px;
+  border-bottom: #99E2D0 2px solid;
+  width: 13%;
+  padding: 0 0 0.3rem;
+  padding-top: 2rem;
 }
 body .menu-plats {
   text-align: left;
@@ -306,17 +330,11 @@ body .button-command {
   transition: all 0.2s;
   background: linear-gradient(#FF79DA, #9356DC);
   width: 62%;
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-top: 2rem;
 }
 body .button-ctn {
   width: 100%;
-}
-body .plats {
-  border-bottom: #99E2D0 2px solid;
-  width: 13%;
-  padding: 0 0 0.3rem;
-  padding-top: 2rem;
 }
 body .bloc-entrees {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -435,6 +453,18 @@ body .footer-global ul {
     left: 45rem;
     width: 20%;
   }
+  body .button-command {
+    border: 0;
+    color: white;
+    border-radius: 4rem;
+    cursor: pointer;
+    height: 3.5rem;
+    transition: all 0.2s;
+    background: linear-gradient(#FF79DA, #9356DC);
+    width: 32%;
+    position: relative;
+    left: 30%;
+  }
   body .titre-fonctionnement {
     padding-left: 6rem;
   }
@@ -455,6 +485,13 @@ body .footer-global ul {
     position: relative;
     left: 40%;
   }
+  body .restau {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+  }
   body .green-ticket {
     position: relative;
     background-color: #99E2D0;
@@ -463,6 +500,43 @@ body .footer-global ul {
     left: 95%;
     top: 3rem;
     padding: 0.5rem;
+  }
+  body .bloc-entrees:hover .anim-check {
+    transition-duration: 1s;
+    transform: translateX(-100%);
+    visibility: visible;
+    -webkit-transform: all 0.5s ease-in;
+    width: 20%;
+  }
+  body .bloc-entrees:hover .anim-check-icon {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+  }
+  body .bloc-entrees:hover .acc-prix {
+    width: 75%;
+  }
+  body .entrees {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 20px;
+    border-bottom: #99E2D0 2px solid;
+    width: 4.5%;
+    padding: 0 0 0.3rem;
+    margin-top: 0;
+  }
+  body .plats {
+    border-bottom: 2px solid #99e2d0;
+    width: 3%;
+    padding: 2rem 0px 0.3rem;
+  }
+  body .desserts {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 20px;
+    border-bottom: #99E2D0 2px solid;
+    width: 5%;
+    padding: 0 0 0.3rem;
+    padding-top: 2rem;
   }
 }
 
