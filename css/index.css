@@ -243,7 +243,7 @@ body .heart-2 {
   color: transparent;
   font-size: 1.95rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 body .toto:hover .titi {
   max-height: 1.95rem;

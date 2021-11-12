@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch ./sass:./css"
+    "sass": "sass --watch ./sass:./css",
+    "prefix": "postcss ./css/*.css --use autoprefixer -d ./css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -16,10 +17,11 @@
   "bugs": {
     "url": "https://github.com/Stunoxx/Mathieu_Minier_3_25-08-2021/issues"
   },
-  "homepage": "https://github.com/Stunoxx/Mathieu_Minier_3_25-08-2021#readme"
+  "homepage": "https://github.com/Stunoxx/Mathieu_Minier_3_25-08-2021#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2"
+  }
 
-  
 }
-
-
-  
