@@ -101,6 +101,7 @@ h3 {
 
 .main {
     padding-left: 1rem;
+    background-color: white;
 }
 
 .titre-fonctionnement {
@@ -120,6 +121,8 @@ h3 {
     padding-left: 1rem;
 }
 
+
+
 .btn-fonctionnement {
     border: 0;
     color: white;
@@ -133,6 +136,7 @@ h3 {
 
 .first-button {
     display: flex;
+    background-color: #f6f6f6;
     align-items: center
 }
 
@@ -285,6 +289,7 @@ h2 {
     color: transparent;
     font-size: 1.95rem;
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    -webkit-background-clip: text;
     background-clip: text;
   }
   
