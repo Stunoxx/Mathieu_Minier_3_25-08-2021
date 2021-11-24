@@ -66,9 +66,11 @@ body .loading {
 
 body .header-top {
   background-color: white;
+  padding-bottom: 1rem;
 }
 .hr {
   background-color: white;
+  margin-top: 0;
 }
 body .logo {
   width: 50%;
@@ -102,6 +104,8 @@ body .icon-titre {
   padding-bottom: 1rem;
 }
 body .icon-titre i {
+  position: relative;
+  left: 10rem;
 
 }
 body h3 {
