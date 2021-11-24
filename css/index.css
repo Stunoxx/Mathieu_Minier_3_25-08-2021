@@ -350,7 +350,7 @@ body .bloc-entrees {
   margin: auto;
   overflow: hidden;
   margin: 0.9rem;
-  animation: slide 1.5s reverse;
+  animation: slide 0.8s ;
 }
 body .bloc-entrees:hover .acc-prix {
   width: 75%;
@@ -377,7 +377,7 @@ body .bloc-entrees2 {
   margin: auto;
   overflow: hidden;
   margin: 0.9rem;
-  animation: slide 3s reverse;
+  animation: slide 1.5s ;
 }
 body .bloc-entrees2:hover .acc-prix {
   width: 75%;
@@ -404,7 +404,7 @@ body .bloc-entrees3 {
   margin: auto;
   overflow: hidden;
   margin: 0.9rem;
-  animation: slide 4.5s reverse;
+  animation: slide 2.2s ;
 }
 body .bloc-entrees3:hover .acc-prix {
   width: 75%;
