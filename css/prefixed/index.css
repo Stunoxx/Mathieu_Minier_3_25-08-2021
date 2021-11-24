@@ -544,7 +544,8 @@ body .footer-global ul {
   }
   .button-explorer {
     position: absolute;
-    left: 2rem;
+    left: 4rem;
+    
   }
 }
 @media (min-width: 1024px) {
@@ -609,9 +610,11 @@ body .footer-global ul {
   }
   body .main {
     position: relative;
-    
+    padding-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.745);
+  
   }
+  
   .fonctionnement-items {
     position: absolute;
     width: 50%;
@@ -691,4 +694,10 @@ body .footer-global ul {
     position: relative;
     left: 29rem;
   }
+}
+@media (min-width: 768px) {
+  body .main {
+    padding-top: 5rem;
+  }
+  
 }

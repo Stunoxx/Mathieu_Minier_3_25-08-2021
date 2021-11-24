@@ -488,10 +488,10 @@ body .footer-global ul {
 @media (min-width: 768px) {
   body {
     background: black;
+    
   }
-  .button-explorer {
-    margin-left: 3.5rem;
-  }
+  
+  
 }
 @media (min-width: 1024px) {
   body {
@@ -544,6 +544,7 @@ body .footer-global ul {
   }
   body .main {
     position: relative;
+    
     left: 40%;
   }
   body .restau {
@@ -599,6 +600,7 @@ body .footer-global ul {
     padding: 0 0 0.3rem;
     padding-top: 2rem;
   }
+  
 }
 
 /*# sourceMappingURL=index.css.map */
