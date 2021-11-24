@@ -195,13 +195,13 @@ body h2 {
 }
 body .menu-restaurants {
   background-color: #f6f6f6;
-  transition: 0.5s;
+  transition: 0.8s;
   animation: slide 2s reverse;
 }
 @keyframes slide {
   0% {
     transform: translateY(0px);
-    opacity: 1;
+    opacity: 2;
   }
   100% {
     transform: translateY(0);
@@ -225,7 +225,7 @@ body .heart-1 {
   bottom: 0;
   font-size: 1.95rem;
   margin-bottom: 1.5rem;
-  left: 20rem;
+  right: 1rem;
 }
 body .titi {
   max-height: 0;
@@ -235,7 +235,7 @@ body .titi {
   bottom: 0;
   left: 0;
   z-index: 2;
-  left: 20rem;
+  left: 17.01rem;
   margin-bottom: 1.5rem;
 }
 body .heart-2 {
@@ -350,6 +350,7 @@ body .bloc-entrees {
   margin: auto;
   overflow: hidden;
   margin: 0.9rem;
+  animation: slide 1.5s reverse;
 }
 body .bloc-entrees:hover .acc-prix {
   width: 75%;
@@ -362,6 +363,60 @@ body .bloc-entrees:hover .anim-check {
   width: 20%;
 }
 body .bloc-entrees:hover .anim-check-icon {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+body .bloc-entrees2 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 16px;
+  background-color: white;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  margin: 0.9rem;
+  animation: slide 3s reverse;
+}
+body .bloc-entrees2:hover .acc-prix {
+  width: 75%;
+}
+body .bloc-entrees2:hover .anim-check {
+  transition-duration: 1s;
+  transform: translateX(-100%);
+  visibility: visible;
+  -webkit-transform: all 0.5s ease-in;
+  width: 20%;
+}
+body .bloc-entrees2:hover .anim-check-icon {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+body .bloc-entrees3 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 16px;
+  background-color: white;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  margin: 0.9rem;
+  animation: slide 4.5s reverse;
+}
+body .bloc-entrees3:hover .acc-prix {
+  width: 75%;
+}
+body .bloc-entrees3:hover .anim-check {
+  transition-duration: 1s;
+  transform: translateX(-100%);
+  visibility: visible;
+  -webkit-transform: all 0.5s ease-in;
+  width: 20%;
+}
+body .bloc-entrees3:hover .anim-check-icon {
   transform: rotate(360deg);
   transition-duration: 1s;
 }
@@ -434,6 +489,9 @@ body .footer-global ul {
   body {
     background: black;
   }
+  .button-explorer {
+    margin-left: 3.5rem;
+  }
 }
 @media (min-width: 1024px) {
   body {
@@ -444,7 +502,7 @@ body .footer-global ul {
     height: auto;
     object-fit: cover;
     position: relative;
-    left: 37rem;
+    left: 30rem;
   }
   body .contenu-header i {
     position: relative;
@@ -496,12 +554,12 @@ body .footer-global ul {
     margin-left: 1.5rem;
   }
   body .green-ticket {
-    position: relative;
+    position: absolute;
     background-color: #99E2D0;
     border-radius: 3px;
     font-size: 1rem;
-    left: 95%;
-    top: 3rem;
+    right: 1rem;
+    top: 1rem;
     padding: 0.5rem;
   }
   body .bloc-entrees:hover .anim-check {
