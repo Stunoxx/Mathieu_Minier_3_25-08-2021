@@ -35,6 +35,7 @@ body .loading {
           animation-iteration-count: 3;
   z-index: 999;
 }
+
 @-webkit-keyframes loading {
   0% {
     transform: rotate(0deg);
@@ -56,6 +57,7 @@ body .loading {
     opacity: 0;
     z-index: -1;
   }
+
 }
 @keyframes loadinger {
   100% {
@@ -67,48 +69,56 @@ body .loading {
 body .header-top {
   background-color: white;
 }
-.hr {
-  background-color: white;
-}
+
 body .logo {
   width: 50%;
   margin-top: 1rem;
   padding-left: 5.5rem;
 }
+
 body p {
   text-align: center;
 }
+
 body .header-localisation {
   font-size: 22px;
 }
+
 body .header-subtitle {
   font-size: 20px;
   width: 98%;
 }
+
 body .textbold {
   font-size: 30px;
   margin-top: 0;
 }
+
 body .contenu-header {
   background-color: rgba(255, 255, 255, 0.747);
   padding-top: 2rem;
 }
+
 body .contenu-header i {
   left: 6rem;
   position: absolute;
 }
+
 body .icon-titre {
   display: block;
   position: relative;
   padding-bottom: 1rem;
 }
+
 body .icon-titre i {
    position: absolute;
    left: 2rem;
 }
+
 body h3 {
   text-align: center;
 }
+
 body .button-explorer {
   border: 0;
   color: white;
@@ -121,19 +131,23 @@ body .button-explorer {
   margin-left: 3rem;
   margin-bottom: 5rem;
 }
+
 body .main {
   padding-left: 1rem;
   background-color: white;
   padding-top: 2rem;
   padding-bottom: 5rem;
 }
+
 body .titre-fonctionnement {
   text-align: left;
 }
+
 body .fonctionnement-items {
   position: relative;
   background-color: #FFFFFF;
 }
+
 body .item-number {
   position: absolute;
   top: 50%;
@@ -141,6 +155,7 @@ body .item-number {
   padding-top: 0.7rem;
   padding-left: 1rem;
 }
+
 body .btn-fonctionnement {
   border: 0;
   color: white;
@@ -153,6 +168,7 @@ body .btn-fonctionnement {
   position: relative;
   right: 0.3rem;
 }
+
 body .first-button {
   display: flex;
   background-color: #f6f6f6;
@@ -161,12 +177,14 @@ body .first-button {
   margin-bottom: 1rem;
   margin-right: 1rem;
 }
+
 body .first-button i {
   margin-left: 1.2rem;
   color: grey;
   padding-top: 0rem;
   padding-left: 1.2rem;
 }
+
 body .third-button {
   display: flex;
   align-items: center;
@@ -174,10 +192,12 @@ body .third-button {
   border-radius: 1.5rem;
   margin-right: 1rem;
 }
+
 body .third-button i {
   color: #9356DC;
   margin-left: 1.4rem;
 }
+
 body .ctn-fonctionnement {
   font-size: 20px;
   background-color: #f6f6f6;
@@ -191,6 +211,7 @@ body .ctn-fonctionnement {
   margin-left: 3rem;
   padding: 1rem;
 }
+
 body .ctn-fonctionnement2 {
   font-size: 20px;
   background-color: #e9dcf7;
@@ -204,10 +225,12 @@ body .ctn-fonctionnement2 {
   margin-left: 3rem;
   padding: 1rem;
 }
+
 body i {
   position: absolute;
   font-size: 25px;
 }
+
 body .second-button {
   display: flex;
   align-items: center;
@@ -216,33 +239,40 @@ body .second-button {
   margin-bottom: 1rem;
   margin-right: 1rem;
 }
+
 body .second-button i {
   padding-top: 0rem;
   padding-left: 2.2rem;
   color: grey;
 }
+
 body .third-button i {
   padding-top: 0rem;
   padding-left: 0.7rem;
 }
+
 body .icon-button {
   position: absolute;
 }
+
 body .icon-button-color {
   position: absolute;
   color: #9356DC;
 }
+
 body .card-restau {
   text-decoration: none;
   color: black;
 }
+
 body .img-restaurants {
   width: 100%;
   cursor: pointer;
   height: 14rem;
   border-radius: 1rem 1rem 0 0;
-     object-fit: cover;
+  object-fit: cover;
 }
+
 body .green-ticket {
   position: absolute;
   background-color: #99E2D0;
@@ -252,6 +282,7 @@ body .green-ticket {
   top: 1rem;
   padding: 0.5rem;
 }
+
 body .restau {
   text-align: left;
   font-size: 1.5rem;
@@ -259,15 +290,17 @@ body .restau {
   margin-top: 4rem;
   padding-left: 0.5rem;
 }
+
 body h2 {
   font-size: 25px;
 }
+
 body .menu-restaurants {
   background-color: #f6f6f6;
   transition: 0.5s;
   animation: slide-in-bottom 1s cubic-bezier(0.25,0.46,0.45,0.94);
-  
 }
+
 body .titre-subtitles {
   margin: 0;
   
@@ -298,10 +331,12 @@ body .nom-restau {
   border-radius: 2rem;
   background: #f6f6f6;
 }
+
 body .section-restaurants {
   background-color: #f6f6f6;
   padding: 0.5rem;
 }
+
 body .restaurants {
   background-color: white;
   width: 95%;
@@ -311,11 +346,12 @@ body .restaurants {
   position: relative;
 }
 
-body .toto {
+body .coeur {
   position: relative;
   height: 5rem;
   overflow: hidden;
 }
+
 body .heart-1 {
   color: black;
   position: absolute;
@@ -324,7 +360,8 @@ body .heart-1 {
   margin-bottom: 1.5rem;
   right: 2rem;
 }
-body .titi {
+
+body .coeur2 {
   max-height: 0;
   transition: max-height 1s linear;
   overflow: hidden;
@@ -335,23 +372,25 @@ body .titi {
   right: 2rem;
   margin-bottom: 1.5rem;
 }
+
 body .heart-2 {
   position: relative;
-  left: 14.1rem;
   transform: translateY(-100%);
   transition: transform 1s linear;
   color: transparent;
-  font-size: 1.95rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
 }
-body .toto:hover .titi {
+
+body .coeur:hover .coeur2 {
   max-height: 1.95rem;
 }
-body .toto:hover .heart-2 {
+
+body .coeur:hover .heart-2 {
   transform: translateY(0);
 }
+
 body .titre-menu {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -359,12 +398,14 @@ body .titre-menu {
   text-align: left;
   margin-left: 1rem;
 }
+
 body .titre-restau {
   font-family: "Shrikhand", cursive;
   text-align: center;
   margin: 0;
   margin-bottom: 1rem;
 }
+
 body .subtitle-menus {
   font-size: 20px;
   text-align: left;
@@ -372,6 +413,7 @@ body .subtitle-menus {
   margin-left: 1rem;
   padding-bottom: 1rem;
 }
+
 body .arrow {
   color: black;
   position: relative;
@@ -379,6 +421,7 @@ body .arrow {
   left: 1.5rem;
   font-size: 1.5rem;
 }
+
 body .entrees {
   text-align: left;
   margin-left: 1rem;
@@ -388,6 +431,7 @@ body .entrees {
   padding: 0 0 0.3rem;
   margin-top: 0;
 }
+
 body .plats {
   text-align: left;
   margin-left: 1rem;
@@ -397,6 +441,7 @@ body .plats {
   padding: 0 0 0.3rem;
   padding-top: 2rem;
 }
+
 body .desserts {
   text-align: left;
   margin-left: 1rem;
@@ -406,6 +451,7 @@ body .desserts {
   padding: 0 0 0.3rem;
   padding-top: 2rem;
 }
+
 body .menu-plats {
   text-align: left;
   margin-left: 1rem;
@@ -414,16 +460,19 @@ body .menu-plats {
   margin: 0.8rem;
   margin-bottom: 0;
 }
+
 body .acc-plats {
   text-align: left;
   margin-left: 0.8rem;
   font-size: 15px;
 }
+
 body .prix {
   text-align: right;
   font-weight: bold;
   padding-right: 2rem;
 }
+
 body .button-command {
   border: 0;
   color: white;
@@ -436,9 +485,11 @@ body .button-command {
   margin-left: 4rem;
   margin-top: 2rem;
 }
+
 body .button-ctn {
   width: 100%;
 }
+
 body .bloc-entrees {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 16px;
@@ -456,6 +507,7 @@ body .bloc-entrees {
 body .bloc-entrees:hover .acc-prix {
   width: 75%;
 }
+
 body .bloc-entrees:hover .anim-check {
   transition-duration: 1s;
   transform: translateX(-100%);
@@ -463,24 +515,29 @@ body .bloc-entrees:hover .anim-check {
   -webkit-transform: all 0.5s ease-in;
   width: 20%;
 }
+
 body .bloc-entrees:hover .anim-check-icon {
   transform: rotate(360deg);
   transition-duration: 1s;
 }
+
 body .anim-check-icon {
   transform: rotate(0deg);
   transition-duration: 1s;
 }
+
 body .acc-prix {
   display: flex;
   justify-content: space-between;
 }
+
 body .anim-check {
   transition-duration: 1s;
   visibility: hidden;
   transform: all 0.5s ease-in;
   width: 0;
 }
+
 body .anim-check {
   background: #99E2D0;
   width: 0%;
@@ -494,51 +551,75 @@ body .anim-check {
   align-items: center;
   border-radius: 0 16px 16px 0;
 }
+
 body i.fas.fa-check-circle {
   color: white;
 }
+
 body .footer-global {
   background-color: #333232db;
   margin-top: 5rem;
   overflow: hidden;
   padding-left: 0.5rem;
 }
+
 body .footer-global .titre-spé {
   font-family: "Shrikhand", cursive;
   color: white;
   font-size: 18px;
   margin-left: 1.5rem;
 }
+
 body .footer-global .footer-text {
   text-decoration: none;
   color: white;
 }
+
 body .footer-global .footer-text1 {
   text-decoration: none;
   color: white;
   padding-left: 2rem;
 }
+
 body .footer-global .footer-text2 {
   text-decoration: none;
   color: white;
   padding-left: 2rem;
 }
+
 body .footer-global i {
   color: white;
   font-size: 20px;
 }
+
 body .footer-global ul {
   list-style-type: none;
   position: relative;
   right: 1rem;
 }
 
+@media (min-width: 375px) {
+  body .icon-titre i {
+    left: 3rem;
+  }
+  
+}
+@media (min-width: 425px) {
+  body .button-explorer {
+    margin-left: 4rem;
+  }
+}
 @media (min-width: 768px) {
   .logo {
     width: 50%;
     position: relative;
     left: 6rem;
   }
+
+  body .icon-titre i {
+    left: 10rem;
+  }
+
   .contenu-header {
     position: relative;
   }
@@ -552,34 +633,34 @@ body .footer-global ul {
   body {
     background-color: rgba(255, 255, 255, 0.747);
   }
+
   body .logo {
     width: 30%;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover;
     position: relative;
-    left: 18rem;
+    left: 17rem;
   }
+
   body .contenu-header i {
     position: relative;
     left: 45rem;
     top: 3rem;
   }
+
 .icon-titre {
   display: block;
   position: relative;
   padding-bottom: 1rem;
 }
-.icon-titre i {
-  position: relative;
-  left: 30rem;
-}
 
   body .button-explorer {
     position: relative;
-    left: 20rem;
+    left: 19rem;
     width: 30%;
   }
+
   body .button-command {
     border: 0;
     color: white;
@@ -592,39 +673,40 @@ body .footer-global ul {
     position: relative;
     left: 30%;
   }
+
   body .titre-fonctionnement {
-    margin: 0;
+    margin: 1rem;
+    text-align: center;
+    margin-bottom: 5rem;
   }
+
   body .first-button {
-    width: 50%;
-    
+    width: 100%;
+    height: 6rem;
   }
-  body .second-button {
-    width: 50%;
-    
-  }
+  
   body .third-button {
-    width: 50%;
-    
-    
+    width: 100%;
+    height: 6rem;
   }
+
   body .main {
     position: relative;
     padding-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.745);
-  
   }
   
   .fonctionnement-items {
     position: absolute;
-    width: 50%;
-    left: 40%;
+    width: 100%;
     margin: 0;
+    display: flex;
   }
 
   body .section-restaurants {
     padding-left: 3rem;
   }
+
   body .restau {
     text-align: left;
     font-size: 1.5rem;
@@ -632,6 +714,7 @@ body .footer-global ul {
     margin-top: 4rem;
     margin-left: 1.5rem;
   }
+
   body .green-ticket {
     position: absolute;
     background-color: #99E2D0;
@@ -641,6 +724,7 @@ body .footer-global ul {
     top: 1rem;
     padding: 0.5rem;
   }
+
   body .bloc-entrees:hover .anim-check {
     transition-duration: 1s;
     transform: translateX(-100%);
@@ -648,13 +732,16 @@ body .footer-global ul {
     -webkit-transform: all 0.5s ease-in;
     width: 20%;
   }
+
   body .bloc-entrees:hover .anim-check-icon {
     transform: rotate(360deg);
     transition-duration: 1s;
   }
+
   body .bloc-entrees:hover .acc-prix {
     width: 75%;
   }
+
   body .entrees {
     text-align: left;
     margin-left: 1rem;
@@ -664,11 +751,13 @@ body .footer-global ul {
     padding: 0 0 0.3rem;
     margin-top: 0;
   }
+
   body .plats {
     border-bottom: 2px solid #99e2d0;
     width: 3%;
     padding: 2rem 0px 0.3rem;
   }
+
   body .desserts {
     text-align: left;
     margin-left: 1rem;
@@ -678,26 +767,30 @@ body .footer-global ul {
     padding: 0 0 0.3rem;
     padding-top: 2rem;
   }
+
   body .footer-global {
     padding-left: 3rem;
   }
 }
+
 @media (min-width: 1440px) {
   body {
     font-family: sans-serif;
   }
+
   body .logo {
     position: relative;
     left: 27rem;
   }
+
   body .button-explorer {
     position: relative;
     left: 29rem;
   }
+
 }
 @media (min-width: 768px) {
   body .main {
     padding-top: 5rem;
   }
-  
 }

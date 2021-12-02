@@ -149,15 +149,7 @@ body i {
   position: absolute;
   font-size: 25px;
 }
-body .second-button {
-  display: flex;
-  align-items: center;
-}
-body .second-button i {
-  padding-top: 0rem;
-  padding-left: 2.2rem;
-  color: grey;
-}
+
 body .third-button i {
   padding-top: 0rem;
   padding-left: 0.7rem;
@@ -210,11 +202,11 @@ body .menu-restaurants {
 }
 body .nom-restau {
   position: relative;
-  transform: translateY(-29px);
+  transform: translateY(-50%);
   border-radius: 2rem;
   background: #f6f6f6;
 }
-body .toto {
+body .coeur {
   position: relative;
   height: 5rem;
   overflow: hidden;
@@ -227,15 +219,14 @@ body .heart-1 {
   margin-bottom: 1.5rem;
   right: 1rem;
 }
-body .titi {
+body .coeur2 {
   max-height: 0;
   transition: max-height 1s linear;
   overflow: hidden;
   position: absolute;
   bottom: 0;
-  left: 0;
   z-index: 2;
-  left: 17.01rem;
+  right: 5%;
   margin-bottom: 1.5rem;
 }
 body .heart-2 {
@@ -248,12 +239,47 @@ body .heart-2 {
   -webkit-background-clip: text;
   background-clip: text;
 }
-body .toto:hover .titi {
+body .coeur:hover .coeur2 {
   max-height: 1.95rem;
 }
-body .toto:hover .heart-2 {
+body .coeur:hover .heart-2 {
   transform: translateY(0);
 }
+
+@media (min-width: 375px) {
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 4.4%;
+    margin-bottom: 1.5rem;
+  }
+  
+  
+}
+
+@media (min-width: 425px) {
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 3.9%;
+    margin-bottom: 1.5rem;
+  }
+  body .button-explorer {
+    margin-left: 4rem;
+  }
+  
+}
+
+
+
 body .titre-menu {
   font-family: "Shrikhand", cursive;
   text-align: left;
@@ -354,6 +380,14 @@ body .bloc-entrees {
 }
 body .bloc-entrees:hover .acc-prix {
   width: 75%;
+  
+}
+body .bloc-entrees:hover .prix {
+  width: 1%;
+  transform: rotate(360deg);
+  transition-duration: 2s;
+  transform: translateX(-40%);
+  visibility: visible;
 }
 body .bloc-entrees:hover .anim-check {
   transition-duration: 1s;
@@ -487,12 +521,21 @@ body .footer-global ul {
 
 @media (min-width: 768px) {
   body {
-    background: black;
+    background: white;
     
   }
-  
-  
-}
+ 
+    body .coeur2 {
+      max-height: 0;
+      transition: max-height 1s linear;
+      overflow: hidden;
+      position: absolute;
+      bottom: 0;
+      z-index: 2;
+      right: 2.1%;
+      margin-bottom: 1.5rem;
+    }
+    }
 @media (min-width: 1024px) {
   body {
     background: #FFF;
@@ -533,10 +576,7 @@ body .footer-global ul {
     position: relative;
     right: 22rem;
   }
-  body .second-button {
-    position: relative;
-    bottom: 4.6rem;
-  }
+  
   body .third-button {
     position: relative;
     left: 20rem;
@@ -563,6 +603,18 @@ body .footer-global ul {
     top: 1rem;
     padding: 0.5rem;
   }
+
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 1.6%;
+    margin-bottom: 1.5rem;
+  }
+
   body .bloc-entrees:hover .anim-check {
     transition-duration: 1s;
     transform: translateX(-100%);
@@ -599,6 +651,32 @@ body .footer-global ul {
     width: 5%;
     padding: 0 0 0.3rem;
     padding-top: 2rem;
+  }
+  
+}
+@media (min-width: 1440px) {
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 1.1%;
+    margin-bottom: 1.5rem;
+  }
+  
+}
+@media (min-width: 2560px) {
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 0.6%;
+    margin-bottom: 1.5rem;
   }
   
 }
