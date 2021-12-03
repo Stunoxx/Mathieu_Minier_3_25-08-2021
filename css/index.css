@@ -525,6 +525,18 @@ body .footer-global ul {
     
   }
  
+  body .bloc-entrees {
+    width: 97%;
+  }
+
+  body .bloc-entrees2 {
+    width: 97%;
+  }
+
+  body .bloc-entrees3 {
+    width: 97%;
+  }
+
     body .coeur2 {
       max-height: 0;
       transition: max-height 1s linear;
