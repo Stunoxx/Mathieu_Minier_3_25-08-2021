@@ -113,22 +113,22 @@ body .btn-fonctionnement {
   height: 20px;
   padding: 0.2rem;
 }
-body .first-button {
+body .button-fonctionnement {
   display: flex;
   background-color: #f6f6f6;
   align-items: center;
 }
-body .first-button i {
+body .button-fonctionnement i {
   margin-left: 1.2rem;
   color: grey;
   padding-top: 0rem;
   padding-left: 1.2rem;
 }
-body .third-button {
+body .button-fonctionnement-active {
   display: flex;
   align-items: center;
 }
-body .third-button i {
+body .button-fonctionnement-active i {
   color: #9356DC;
   margin-left: 1.4rem;
 }
@@ -150,7 +150,7 @@ body i {
   font-size: 25px;
 }
 
-body .third-button i {
+body .button-fonctionnement-active i {
   padding-top: 0rem;
   padding-left: 0.7rem;
 }
@@ -584,12 +584,12 @@ body .footer-global ul {
   body .titre-fonctionnement {
     padding-left: 6rem;
   }
-  body .first-button {
+  body .button-fonctionnement {
     position: relative;
     right: 22rem;
   }
   
-  body .third-button {
+  body .button-fonctionnement-active {
     position: relative;
     left: 20rem;
     bottom: 9.2rem;
@@ -679,6 +679,18 @@ body .footer-global ul {
   }
   
 }
+
+@media (min-width: 1920px) {
+  body .logo {
+    position: relative;
+    left: 30rem;
+  }
+
+  body .coeur2 {
+    right: 0.8%;
+  }
+}
+
 @media (min-width: 2560px) {
   body .coeur2 {
     max-height: 0;

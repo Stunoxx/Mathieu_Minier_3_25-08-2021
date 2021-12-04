@@ -130,6 +130,7 @@ body .button-explorer {
   width: 70%;
   margin-left: 3rem;
   margin-bottom: 5rem;
+  font-weight: bold;
 }
 
 body .main {
@@ -169,7 +170,7 @@ body .btn-fonctionnement {
   right: 0.3rem;
 }
 
-body .first-button {
+body .button-fonctionnement {
   display: flex;
   background-color: #f6f6f6;
   align-items: center;
@@ -178,14 +179,14 @@ body .first-button {
   margin-right: 1rem;
 }
 
-body .first-button i {
+body .button-fonctionnement i {
   margin-left: 1.2rem;
   color: grey;
   padding-top: 0rem;
   padding-left: 1.2rem;
 }
 
-body .third-button {
+body .button-fonctionnement-active {
   display: flex;
   align-items: center;
   background-color: #e9dcf7;
@@ -193,7 +194,7 @@ body .third-button {
   margin-right: 1rem;
 }
 
-body .third-button i {
+body .button-fonctionnement-active i {
   color: #9356DC;
   margin-left: 1.4rem;
 }
@@ -240,13 +241,8 @@ body .second-button {
   margin-right: 1rem;
 }
 
-body .second-button i {
-  padding-top: 0rem;
-  padding-left: 2.2rem;
-  color: grey;
-}
 
-body .third-button i {
+body .button-fonctionnement-active i {
   padding-top: 0rem;
   padding-left: 0.7rem;
 }
@@ -484,6 +480,7 @@ body .button-command {
   width: 62%;
   margin-left: 4rem;
   margin-top: 2rem;
+  font-weight: bold;
 }
 
 body .button-ctn {
@@ -534,7 +531,6 @@ body .acc-prix {
 body .anim-check {
   transition-duration: 1s;
   visibility: hidden;
-  transform: all 0.5s ease-in;
   width: 0;
 }
 
@@ -680,12 +676,12 @@ body .footer-global ul {
     margin-bottom: 5rem;
   }
 
-  body .first-button {
+  body .button-fonctionnement {
     width: 100%;
     height: 6rem;
   }
   
-  body .third-button {
+  body .button-fonctionnement-active {
     width: 100%;
     height: 6rem;
   }
@@ -773,9 +769,19 @@ body .footer-global ul {
   }
 }
 
+@media (min-width: 1024px) {
+  body .icon-titre i {
+    left: 22rem;
+  }
+}
+
 @media (min-width: 1440px) {
   body {
     font-family: sans-serif;
+  }
+
+  body .icon-titre i {
+    left: 35rem;
   }
 
   body .logo {
@@ -792,5 +798,36 @@ body .footer-global ul {
 @media (min-width: 768px) {
   body .main {
     padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  body .logo {
+    position: relative;
+    left: 36rem;
+  }
+
+  body .button-explorer {
+    position: relative;
+    left: 37rem;
+  }
+
+  body .icon-titre i {
+    left: 50rem;
+  }
+
+  body .coeur2 {
+    right: 0.8%;
+  }
+
+}
+
+@media (min-width: 2560px) {
+  body .logo {
+    left: 51rem;
+  }
+
+  body .button-explorer {
+    left: 51rem;
   }
 }
