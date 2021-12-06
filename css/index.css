@@ -361,6 +361,7 @@ body .button-command {
   width: 62%;
   margin-left: 4rem;
   margin-top: 2rem;
+  font-weight: bold;
 }
 body .button-ctn {
   width: 100%;
