@@ -133,6 +133,13 @@ body .button-explorer {
   font-weight: bold;
 }
 
+body .button-explorer:hover {
+  transform: translate(0,-4px);
+  transition: all 0.2s;
+  box-shadow: 10px 5px 5px grey;
+  filter: brightness(1.20);
+}
+
 body .main {
   padding-left: 1rem;
   background-color: white;
@@ -199,6 +206,19 @@ body .button-fonctionnement-active {
 body .button-fonctionnement-active i {
   color: #9356DC;
   margin-left: 1.4rem;
+}
+body .button-fonctionnement:hover {
+  transform: translate(0,-4px);
+  transition: all 0.2s;
+  box-shadow: 10px 5px 5px grey;
+  filter: brightness(1.02);
+}
+
+body .button-fonctionnement-active:hover {
+  transform: translate(0,-4px);
+  transition: all 0.2s;
+  box-shadow: 10px 5px 5px grey;
+  filter: brightness(1.04);
 }
 
 body .ctn-fonctionnement {
@@ -366,10 +386,10 @@ body .coeur2 {
   overflow: hidden;
   position: absolute;
   bottom: 0;
-  left: 0;
   z-index: 2;
-  right: 2rem;
+  right: 2.15%;
   margin-bottom: 1.5rem;
+  font-size: 1.95rem;
 }
 
 body .heart-2 {

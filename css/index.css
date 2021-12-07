@@ -87,6 +87,8 @@ body .button-explorer {
 }
 body .button-explorer:hover {
   display: flex;
+  transform: translate(0,-4px);
+  transition: all 0.2s;
 }
 body .main {
   padding-left: 1rem;
