@@ -142,6 +142,8 @@ body .main {
 
 body .titre-fonctionnement {
   text-align: left;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 body .fonctionnement-items {
@@ -282,6 +284,7 @@ body .green-ticket {
 body .restau {
   text-align: left;
   font-size: 1.5rem;
+  font-weight: bold;
   margin: 0;
   margin-top: 4rem;
   padding-left: 0.5rem;
@@ -461,6 +464,7 @@ body .acc-plats {
   text-align: left;
   margin-left: 0.8rem;
   font-size: 15px;
+  
 }
 
 body .prix {
@@ -502,15 +506,15 @@ body .bloc-entrees {
 }
 
 body .bloc-entrees:hover .acc-prix {
-  width: 75%;
+  width: 85%;
 }
 
 body .bloc-entrees:hover .anim-check {
-  transition-duration: 1s;
+  transition-duration: 0.1s;
   transform: translateX(-100%);
   visibility: visible;
-  -webkit-transform: all 0.5s ease-in;
-  width: 20%;
+  -webkit-transform: all 0.1s ease-in;
+  width: 10%;
 }
 
 body .bloc-entrees:hover .anim-check-icon {

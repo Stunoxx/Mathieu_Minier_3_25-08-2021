@@ -85,12 +85,16 @@ body .button-explorer {
   width: 70%;
   margin-left: 3rem;
 }
+body .button-explorer:hover {
+  display: flex;
+}
 body .main {
   padding-left: 1rem;
   background-color: white;
 }
 body .titre-fonctionnement {
   text-align: left;
+  font-weight: bold;
 }
 body .fonctionnement-items {
   position: relative;
@@ -335,15 +339,21 @@ body .desserts {
 body .menu-plats {
   text-align: left;
   margin-left: 1rem;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   margin: 0.8rem;
   margin-bottom: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 body .acc-plats {
   text-align: left;
   margin-left: 0.8rem;
   font-size: 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 body .prix {
   text-align: right;
@@ -377,17 +387,31 @@ body .bloc-entrees {
   margin: auto;
   overflow: hidden;
   margin: 0.9rem;
-  animation: slide 0.8s ;
+  animation: slide 0.6s ;
 }
 body .bloc-entrees:hover .acc-prix {
   width: 75%;
   
 }
 body .bloc-entrees:hover .prix {
-  width: 1%;
+  width: 5%;
   transform: rotate(360deg);
-  transition-duration: 2s;
-  transform: translateX(-40%);
+  transition-duration: 0.5s;
+  transform: translateX(-10%);
+  visibility: visible;
+}
+body .bloc-entrees2:hover .prix {
+  width: 0.1%;
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+  transform: translateX(-5%);
+  visibility: visible;
+}
+body .bloc-entrees3:hover .prix {
+  width: 0.1%;
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+  transform: translateX(-5%);
   visibility: visible;
 }
 body .bloc-entrees:hover .anim-check {
@@ -412,10 +436,12 @@ body .bloc-entrees2 {
   margin: auto;
   overflow: hidden;
   margin: 0.9rem;
-  animation: slide 1.5s ;
+  animation: slide 0.9s ;
+  
 }
 body .bloc-entrees2:hover .acc-prix {
   width: 75%;
+  
 }
 body .bloc-entrees2:hover .anim-check {
   transition-duration: 1s;
@@ -423,10 +449,12 @@ body .bloc-entrees2:hover .anim-check {
   visibility: visible;
   -webkit-transform: all 0.5s ease-in;
   width: 20%;
+  
 }
 body .bloc-entrees2:hover .anim-check-icon {
   transform: rotate(360deg);
   transition-duration: 1s;
+  
 }
 body .bloc-entrees3 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -439,7 +467,7 @@ body .bloc-entrees3 {
   margin: auto;
   overflow: hidden;
   margin: 0.9rem;
-  animation: slide 2.2s ;
+  animation: slide 1.3s ;
 }
 body .bloc-entrees3:hover .acc-prix {
   width: 75%;
@@ -462,6 +490,7 @@ body .anim-check-icon {
 body .acc-prix {
   display: flex;
   justify-content: space-between;
+  
 }
 body .anim-check {
   transition-duration: 1s;
