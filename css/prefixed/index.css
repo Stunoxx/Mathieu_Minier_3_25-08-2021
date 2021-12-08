@@ -136,8 +136,8 @@ body .button-explorer {
 body .button-explorer:hover {
   transform: translate(0,-4px);
   transition: all 0.2s;
-  box-shadow: 10px 5px 5px grey;
-  filter: brightness(1.20);
+  box-shadow: 5px 3px 3px grey;
+  filter: brightness(1.10);
 }
 
 body .main {
@@ -507,6 +507,13 @@ body .button-command {
   font-weight: bold;
 }
 
+body .button-command:hover {
+  transform: translate(0,-4px);
+  transition: all 0.2s;
+  box-shadow: 10px 5px 5px grey;
+  filter: brightness(1.20);
+}
+
 body .button-ctn {
   width: 100%;
 }
@@ -526,7 +533,18 @@ body .bloc-entrees {
 }
 
 body .bloc-entrees:hover .acc-prix {
-  width: 85%;
+  padding-right: 2%;
+  transition: all 1s ease;
+}
+
+body .bloc-entrees2:hover .acc-prix {
+  padding-right: 2rem;
+  transition: all 1s ease;
+}
+
+body .bloc-entrees3:hover .acc-prix {
+  padding-right: 2rem;
+  transition: all 1s ease;
 }
 
 body .bloc-entrees:hover .anim-check {

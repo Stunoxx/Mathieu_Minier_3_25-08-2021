@@ -263,7 +263,10 @@ body .coeur:hover .heart-2 {
     right: 4.4%;
     margin-bottom: 1.5rem;
   }
-  
+  body .bloc-entrees2:hover .acc-prix {
+    padding-right: 25%;
+    
+  }
   
 }
 
@@ -281,8 +284,12 @@ body .coeur:hover .heart-2 {
   body .button-explorer {
     margin-left: 4rem;
   }
-  
+  body .bloc-entrees2:hover .acc-prix {
+    padding-right: 4rem;
+  }
 }
+
+
 
 
 
@@ -375,6 +382,12 @@ body .button-command {
   margin-top: 2rem;
   font-weight: bold;
 }
+body .button-command:hover {
+  transform: translate(0,-4px);
+  transition: all 0.2s;
+  box-shadow: 5px 3px 3px grey;
+  filter: brightness(1.10);
+}
 body .button-ctn {
   width: 100%;
 }
@@ -392,22 +405,24 @@ body .bloc-entrees {
   animation: slide 0.6s ;
 }
 body .bloc-entrees:hover .acc-prix {
-  width: 75%;
-  
+  padding-right: 15%;
 }
-body .bloc-entrees:hover .prix {
-  width: 5%;
-  transform: rotate(360deg);
-  transition-duration: 0.5s;
-  transform: translateX(-10%);
-  visibility: visible;
+
+body .bloc-entrees .acc-prix {
+  transition: all 1s ease;
 }
-body .bloc-entrees2:hover .prix {
-  width: 0.1%;
-  transform: rotate(360deg);
-  transition-duration: 0.5s;
-  transform: translateX(-5%);
-  visibility: visible;
+
+body .bloc-entrees2:hover .acc-prix {
+  padding-right: 12%;
+}
+body .bloc-entrees2 .acc-prix {
+  transition: all 1s ease;
+}
+body .bloc-entrees3:hover .acc-prix {
+  padding-right: 20%;
+}
+body .bloc-entrees3 .acc-prix {
+  transition: all 1s ease;
 }
 body .bloc-entrees3:hover .prix {
   width: 0.1%;
@@ -441,10 +456,7 @@ body .bloc-entrees2 {
   animation: slide 0.9s ;
   
 }
-body .bloc-entrees2:hover .acc-prix {
-  width: 75%;
-  
-}
+
 body .bloc-entrees2:hover .anim-check {
   transition-duration: 1s;
   transform: translateX(-100%);
@@ -471,9 +483,7 @@ body .bloc-entrees3 {
   margin: 0.9rem;
   animation: slide 1.3s ;
 }
-body .bloc-entrees3:hover .acc-prix {
-  width: 75%;
-}
+
 body .bloc-entrees3:hover .anim-check {
   transition-duration: 1s;
   transform: translateX(-100%);
@@ -492,7 +502,6 @@ body .anim-check-icon {
 body .acc-prix {
   display: flex;
   justify-content: space-between;
-  
 }
 body .anim-check {
   transition-duration: 1s;
@@ -578,6 +587,15 @@ body .footer-global ul {
       z-index: 2;
       right: 2.1%;
       margin-bottom: 1.5rem;
+    }
+    body .bloc-entrees:hover .acc-prix {
+      padding-right: 25%;
+    }
+    body .bloc-entrees2:hover .acc-prix {
+      padding-right: 25%;
+    }
+    body .bloc-entrees3:hover .acc-prix {
+      padding-right: 25%;
     }
     }
 @media (min-width: 1024px) {
@@ -670,9 +688,7 @@ body .footer-global ul {
     transform: rotate(360deg);
     transition-duration: 1s;
   }
-  body .bloc-entrees:hover .acc-prix {
-    width: 75%;
-  }
+  
   body .entrees {
     text-align: left;
     margin-left: 1rem;
