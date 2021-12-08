@@ -387,8 +387,8 @@ body .coeur2 {
   position: absolute;
   bottom: 0;
   z-index: 2;
-  right: 2.15%;
-  margin-bottom: 1.5rem;
+  right: 11%;
+  margin-bottom: 1.6rem;
   font-size: 1.95rem;
 }
 
@@ -640,11 +640,33 @@ body .footer-global ul {
   body .icon-titre i {
     left: 3rem;
   }
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 9.5%;
+    margin-bottom: 1.65rem;
+    font-size: 1.95rem;
+  }
   
 }
 @media (min-width: 425px) {
   body .button-explorer {
     margin-left: 4rem;
+  }
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 8%;
+    margin-bottom: 1.6rem;
+    font-size: 1.95rem;
   }
 }
 @media (min-width: 768px) {
@@ -666,6 +688,18 @@ body .footer-global ul {
     left: 4rem;
     
   }
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 4.5%;
+    margin-bottom: 1.65rem;
+    font-size: 1.95rem;
+  }
+  
 }
 @media (min-width: 1024px) {
   body {
@@ -810,6 +844,17 @@ body .footer-global ul {
   body .footer-global {
     padding-left: 3rem;
   }
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 3.5%;
+    margin-bottom: 1.65rem;
+    font-size: 1.95rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -836,6 +881,17 @@ body .footer-global ul {
     position: relative;
     left: 29rem;
   }
+  body .coeur2 {
+    max-height: 0;
+    transition: max-height 1s linear;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 2.4%;
+    margin-bottom: 1.55rem;
+    font-size: 1.95rem;
+  }
 
 }
 @media (min-width: 768px) {
@@ -860,7 +916,7 @@ body .footer-global ul {
   }
 
   body .coeur2 {
-    right: 0.8%;
+    right: 1.8%;
   }
 
 }
