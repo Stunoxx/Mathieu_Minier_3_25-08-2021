@@ -366,9 +366,10 @@ body .restaurants {
 }
 
 body .coeur {
-  position: relative;
   height: 5rem;
   overflow: hidden;
+  width: 0%;
+  display: inline;
 }
 
 body .heart-1 {
@@ -413,7 +414,7 @@ body .coeur:hover .heart-2 {
 body .titre-menu {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 19px;
   text-align: left;
   margin-left: 1rem;
 }
@@ -426,11 +427,10 @@ body .titre-restau {
 }
 
 body .subtitle-menus {
-  font-size: 20px;
+  font-size: 17px;
   text-align: left;
   margin: 0;
   margin-left: 1rem;
-  padding-bottom: 1rem;
 }
 
 body .arrow {
@@ -478,6 +478,9 @@ body .menu-plats {
   font-weight: bold;
   margin: 0.8rem;
   margin-bottom: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 body .acc-plats {
@@ -650,6 +653,10 @@ body .footer-global ul {
     right: 9.5%;
     margin-bottom: 1.65rem;
     font-size: 1.95rem;
+  }
+  body .coeur {
+    height: 5rem;
+    overflow: hidden;
   }
   
 }

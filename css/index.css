@@ -213,9 +213,10 @@ body .nom-restau {
   background: #f6f6f6;
 }
 body .coeur {
-  position: relative;
   height: 5rem;
   overflow: hidden;
+  width: 0%;
+  display: inline;
 }
 body .heart-1 {
   color: black;
@@ -251,7 +252,15 @@ body .coeur:hover .coeur2 {
 body .coeur:hover .heart-2 {
   transform: translateY(0);
 }
-
+@media (min-width: 320px) {
+  body .coeur {
+    position: relative;
+    height: 5rem;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+  }
+}
 @media (min-width: 375px) {
   body .coeur2 {
     max-height: 0;
@@ -266,6 +275,13 @@ body .coeur:hover .heart-2 {
   body .bloc-entrees2:hover .acc-prix {
     padding-right: 25%;
     
+  }
+  body .coeur {
+    position: relative;
+    height: 5rem;
+    overflow: hidden;
+    display: block;
+    width: 100%;
   }
   
 }
@@ -352,9 +368,21 @@ body .menu-plats {
   font-weight: bold;
   margin: 0.8rem;
   margin-bottom: 0;
+  white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+}
+body .bloc-entrees:hover .menu-plats {
+  padding-right: 15%;
+}
+body .bloc-entrees .menu-plats {
+  transition: all 1s ease;
+}
+body .bloc-entrees2:hover .menu-plats {
+  padding-right: 15%;
+}
+body .bloc-entrees2 .menu-plats {
+  transition: all 1s ease;
 }
 body .acc-plats {
   text-align: left;
