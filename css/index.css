@@ -401,7 +401,7 @@ body .button-command {
   border-radius: 4rem;
   cursor: pointer;
   height: 3.5rem;
-  transition: all 0.2s;
+  transition: all 0.8s;
   background: linear-gradient(#FF79DA, #9356DC);
   width: 62%;
   margin-left: 4rem;
@@ -410,7 +410,7 @@ body .button-command {
 }
 body .button-command:hover {
   transform: translate(0,-4px);
-  transition: all 0.2s;
+  transition: all 0.8s;
   box-shadow: 5px 3px 3px grey;
   filter: brightness(1.10);
 }
