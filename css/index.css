@@ -235,6 +235,7 @@ body .coeur2 {
   z-index: 2;
   right: 5%;
   margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 body .heart-2 {
   position: relative;
