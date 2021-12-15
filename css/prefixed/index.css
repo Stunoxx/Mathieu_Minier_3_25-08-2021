@@ -125,7 +125,7 @@ body .button-explorer {
   border-radius: 4rem;
   cursor: pointer;
   height: 3.5rem;
-  transition: all 0.2s;
+  transition: all 0.80s;
   background: linear-gradient(#FF79DA, #9356DC);
   width: 70%;
   margin-left: 3rem;
@@ -135,7 +135,7 @@ body .button-explorer {
 
 body .button-explorer:hover {
   transform: translate(0,-4px);
-  transition: all 0.2s;
+  transition: all 0.80s;
   box-shadow: 5px 3px 3px grey;
   filter: brightness(1.10);
 }
@@ -209,14 +209,14 @@ body .button-fonctionnement-active i {
 }
 body .button-fonctionnement:hover {
   transform: translate(0,-4px);
-  transition: all 0.2s;
+  transition: all 0.80s;
   box-shadow: 10px 5px 5px grey;
   filter: brightness(1.02);
 }
 
 body .button-fonctionnement-active:hover {
   transform: translate(0,-4px);
-  transition: all 0.2s;
+  transition: all 0.80s;
   box-shadow: 10px 5px 5px grey;
   filter: brightness(1.04);
 }
@@ -506,7 +506,7 @@ body .button-command {
   border-radius: 4rem;
   cursor: pointer;
   height: 3.5rem;
-  transition: all 0.2s;
+  transition: all 0.80s;
   background: linear-gradient(#FF79DA, #9356DC);
   width: 62%;
   margin-left: 4rem;
@@ -516,7 +516,7 @@ body .button-command {
 
 body .button-command:hover {
   transform: translate(0,-4px);
-  transition: all 0.2s;
+  transition: all 0.80s;
   box-shadow: 10px 5px 5px grey;
   filter: brightness(1.20);
 }

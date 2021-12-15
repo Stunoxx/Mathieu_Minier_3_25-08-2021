@@ -80,7 +80,7 @@ body .button-explorer {
   border-radius: 4rem;
   cursor: pointer;
   height: 3.5rem;
-  transition: all 0.2s;
+  transition: all 2s;
   background: linear-gradient(#FF79DA, #9356DC);
   width: 70%;
   margin-left: 3rem;
@@ -88,7 +88,7 @@ body .button-explorer {
 body .button-explorer:hover {
   display: flex;
   transform: translate(0,-4px);
-  transition: all 0.2s;
+  transition: all 02s;
 }
 body .main {
   padding-left: 1rem;
@@ -211,6 +211,7 @@ body .nom-restau {
   transform: translateY(-50%);
   border-radius: 2rem;
   background: #f6f6f6;
+  display: -webkit-box;
 }
 body .coeur {
   height: 5rem;
@@ -235,7 +236,6 @@ body .coeur2 {
   z-index: 2;
   right: 5%;
   margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
 }
 body .heart-2 {
   position: relative;
@@ -255,11 +255,9 @@ body .coeur:hover .heart-2 {
 }
 @media (min-width: 320px) {
   body .coeur {
-    position: relative;
     height: 5rem;
     overflow: hidden;
     display: block;
-    width: 100%;
   }
 }
 @media (min-width: 375px) {
@@ -278,11 +276,10 @@ body .coeur:hover .heart-2 {
     
   }
   body .coeur {
-    position: relative;
     height: 5rem;
     overflow: hidden;
     display: block;
-    width: 100%;
+
   }
   
 }
